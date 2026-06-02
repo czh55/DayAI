@@ -1,0 +1,10 @@
+{
+  "name": "dayai-tools",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Local CLI tools for DayAI daily testing (Claude Code, Codex)",
+  "dependencies": {
+    "@anthropic-ai/claude-code": "^2.1.161",
+    "@openai/codex": "^0.136.0"
+  }
+}
