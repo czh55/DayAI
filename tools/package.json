@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "@anthropic-ai/claude-code": "^2.1.167",
+    "@openai/codex": "^0.137.0",
+    "@qwen-code/qwen-code": "^0.17.1"
+  }
+}
