@@ -1,0 +1,9 @@
+{
+  "name": "dayai-tools",
+  "private": true,
+  "description": "Local CLI pins for DayAI daily research",
+  "dependencies": {
+    "@anthropic-ai/claude-code": "^2.1.176",
+    "@openai/codex": "^0.139.0"
+  }
+}
