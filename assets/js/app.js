@@ -104,41 +104,60 @@ function setupMarked() {
   marked.use({
     gfm: true,
     breaks: false,
-    renderer: {
-      heading({ tokens, depth }) {
-        const text = this.parser.parseInline(tokens);
-        const plain = tokens.map((t) => t.raw ?? t.text ?? '').join('');
-        const slug = plain
-          .toLowerCase()
-          .replace(/[^\w\u4e00-\u9fff\s-]/g, '')
-          .replace(/\s+/g, '-');
-        return `<h${depth} id="${slug}">${text}</h${depth}>\n`;
-      },
-      link({ href, title, tokens }) {
-        const text = this.parser.parseInline(tokens);
-        const titleAttr = title ? ` title="${title}"` : '';
+    walkTokens(token) {
+      if (token.type !== 'link' || !state.currentDate) return;
 
-        if (href && (href.endsWith('.md') || href.includes('.md#'))) {
-          const [filePart, anchor] = href.split('#');
-          const fileName = filePart.replace(/^\.\//, '').split('/').pop();
-          const sectionKey = FILE_TO_KEY[fileName];
-          if (sectionKey && state.currentDate) {
-            const hash = `#/${state.currentDate}/${sectionKey}${anchor ? `#${anchor}` : ''}`;
-            return `<a href="${hash}" data-internal-link>${text}</a>`;
-          }
-        }
+      const href = token.href;
+      if (!href || (!href.endsWith('.md') && !href.includes('.md#'))) return;
 
-        if (href && !href.startsWith('http') && !href.startsWith('#')) {
-          return `<a href="${assetUrl(href)}"${titleAttr}>${text}</a>`;
-        }
-
-        const external = href?.startsWith('http')
-          ? ' target="_blank" rel="noopener noreferrer"'
-          : '';
-        return `<a href="${href || '#'}"${titleAttr}${external}>${text}</a>`;
-      },
+      const [filePart, anchor] = href.split('#');
+      const fileName = filePart.replace(/^\.\//, '').split('/').pop();
+      const sectionKey = FILE_TO_KEY[fileName];
+      if (sectionKey) {
+        token.href = `#/${state.currentDate}/${sectionKey}${anchor ? `#${anchor}` : ''}`;
+      }
     },
   });
+}
+
+function postProcessHtml(html) {
+  const doc = new DOMParser().parseFromString(`<div id="md-root">${html}</div>`, 'text/html');
+  const root = doc.getElementById('md-root');
+  if (!root) return html;
+
+  root.querySelectorAll('h1,h2,h3,h4,h5,h6').forEach((heading) => {
+    if (heading.id) return;
+    const plain = heading.textContent || '';
+    const slug = plain
+      .toLowerCase()
+      .replace(/[^\w\u4e00-\u9fff\s-]/g, '')
+      .replace(/\s+/g, '-');
+    if (slug) heading.id = slug;
+  });
+
+  root.querySelectorAll('a').forEach((anchor) => {
+    const href = anchor.getAttribute('href') || '';
+
+    if (href.startsWith('http')) {
+      anchor.setAttribute('target', '_blank');
+      anchor.setAttribute('rel', 'noopener noreferrer');
+    }
+
+    if (href.startsWith('#/')) {
+      anchor.setAttribute('data-internal-link', '');
+    }
+
+    if (
+      href &&
+      !href.startsWith('http') &&
+      !href.startsWith('#') &&
+      !href.startsWith('mailto:')
+    ) {
+      anchor.setAttribute('href', assetUrl(href));
+    }
+  });
+
+  return root.innerHTML;
 }
 
 function highlightCode(container) {
@@ -165,8 +184,7 @@ async function loadIndex() {
 
 async function renderMarkdown(path) {
   const md = await fetchText(path);
-  const html = marked.parse(md);
-  return html;
+  return postProcessHtml(marked.parse(md));
 }
 
 function renderHome() {
