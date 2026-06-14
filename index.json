@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-14T09:27:25.732Z",
+  "generated_at": "2026-06-14T09:34:19.900Z",
   "trigger_at": "2026-06-14T09:26:05Z",
   "latest_date": "2026-06-14",
   "summaries": [
@@ -40,6 +40,472 @@
       "media_lens": {
         "consensus": "编程 Agent 正从提示词工程转向 Loop/Goal 长程编排",
         "divergence": "36氪强调 Loop 工程范式转移，量子位聚焦御三家模型竞速与 Fable 5 停服冲击。"
+      }
+    },
+    {
+      "date": "2026-06-13",
+      "path": "summaries/2026-06-13",
+      "headline": "Fable 5 上线四天后遭美国商务部出口管制暂停全球访问；Bugbot 换芯 Composer 2.5 后审查提速 3 倍；CLI 0.139.0 让 Code mode 可直接调用独立 Web …",
+      "files": {
+        "readme": "summaries/2026-06-13/README.md",
+        "industry": "summaries/2026-06-13/industry.md",
+        "china_media": "summaries/2026-06-13/china-media.md",
+        "china_ai": "summaries/2026-06-13/china-ai.md",
+        "claude_code": "summaries/2026-06-13/claude-code.md",
+        "cursor": "summaries/2026-06-13/cursor.md",
+        "codex": "summaries/2026-06-13/codex.md"
+      },
+      "tools": [
+        {
+          "id": "claude-code",
+          "name": "Claude Code",
+          "icon": "svgs/claude-code.svg",
+          "one_liner": "Fable 5 上线四天后遭美国商务部出口管制暂停全球访问；CLI 已迭代至 2.1.177"
+        },
+        {
+          "id": "cursor",
+          "name": "Cursor",
+          "icon": "svgs/cursor.svg",
+          "one_liner": "Bugbot 换芯 Composer 2.5 后审查提速 3 倍；/review 可在 push 前跑审查并与 GitHub/GitLab PR 去重"
+        },
+        {
+          "id": "codex",
+          "name": "OpenAI Codex",
+          "icon": "svgs/codex.svg",
+          "one_liner": "CLI 0.139.0 让 Code mode 可直接调用独立 Web Search"
+        }
+      ],
+      "china_summary": "豆包「任务模式」 6/13 大范围上线，把 Agent 推到 C 端；智源大会 6/12–13 北京开幕，Agent 工作流成主议题",
+      "media_lens": {
+        "consensus": "Agent 从 demo 进入入口与执行权争夺",
+        "divergence": "36氪强调约束性部署，钛媒体强调超级入口战争"
+      }
+    },
+    {
+      "date": "2026-06-12",
+      "path": "summaries/2026-06-12",
+      "headline": "当日连发 v2.1.174 / v2.1.176：Remote Cont…；当日无新 changelog",
+      "files": {
+        "readme": "summaries/2026-06-12/README.md",
+        "industry": "summaries/2026-06-12/industry.md",
+        "china_media": "summaries/2026-06-12/china-media.md",
+        "china_ai": "summaries/2026-06-12/china-ai.md",
+        "claude_code": "summaries/2026-06-12/claude-code.md",
+        "cursor": "summaries/2026-06-12/cursor.md",
+        "codex": "summaries/2026-06-12/codex.md"
+      },
+      "tools": [
+        {
+          "id": "claude-code",
+          "name": "Claude Code",
+          "icon": "svgs/claude-code.svg",
+          "one_liner": "当日连发 v2.1.174 / v2.1.176：Remote Control、后台会话、Bedrock 凭证缓存与 availableModels 治理大幅加…"
+        },
+        {
+          "id": "cursor",
+          "name": "Cursor",
+          "icon": "svgs/cursor.svg",
+          "one_liner": "当日无新 changelog；6 月 10 日 Bugbot 换用 Composer 2.5，审查 ~90s、成本降 22%"
+        },
+        {
+          "id": "codex",
+          "name": "OpenAI Codex",
+          "icon": "svgs/codex.svg",
+          "one_liner": "今日无更新"
+        }
+      ],
+      "china_summary": "当日多数头部厂商无公开更新；Trae CN v3.3.64–3.3.65（6/9）企业版日志上传；媒体热议 ALE 基准 与 G7 AI 峰会。",
+      "media_lens": {
+        "consensus": "编程 Agent 评测从「答题榜」转向「真干活」（ALE）",
+        "divergence": "Fable 5 成本/效率 vs GPT 5.5 在 ALE 上的反超解读。"
+      }
+    },
+    {
+      "date": "2026-06-11",
+      "path": "summaries/2026-06-11",
+      "headline": "当日发布 v2.1.173（Fable 5 模型名 [1m] 后缀归一化…；6/10 Bugbot 提速 3 倍+、降价 22%；稳定版 0.139.0（6/9）：Code mode 独立 Web 搜索…",
+      "files": {
+        "readme": "summaries/2026-06-11/README.md",
+        "industry": "summaries/2026-06-11/industry.md",
+        "china_media": "summaries/2026-06-11/china-media.md",
+        "china_ai": "summaries/2026-06-11/china-ai.md",
+        "claude_code": "summaries/2026-06-11/claude-code.md",
+        "cursor": "summaries/2026-06-11/cursor.md",
+        "codex": "summaries/2026-06-11/codex.md"
+      },
+      "tools": [
+        {
+          "id": "claude-code",
+          "name": "Claude Code",
+          "icon": "svgs/claude-code.svg",
+          "one_liner": "当日发布 v2.1.173（Fable 5 模型名 [1m] 后缀归一化 + Windows 沙箱误报警修复）"
+        },
+        {
+          "id": "cursor",
+          "name": "Cursor",
+          "icon": "svgs/cursor.svg",
+          "one_liner": "6/10 Bugbot 提速 3 倍+、降价 22%；新增 /review 推送前审查 与「仅审增量 diff」"
+        },
+        {
+          "id": "codex",
+          "name": "OpenAI Codex",
+          "icon": "svgs/codex.svg",
+          "one_liner": "稳定版 0.139.0（6/9）：Code mode 独立 Web 搜索、MCP oneOf/allOf 模式保留、resume --last 提示词修复"
+        }
+      ],
+      "china_summary": "字节 TRAE 在火山引擎 Force 大会官宣智能 Cue/MCP/SOLO；通义千问 上线高考志愿 Agent；多数模型厂商当日无新版本",
+      "media_lens": {
+        "consensus": "Mythos 级模型 + 长程 Agent 成焦点",
+        "divergence": "Harness 该做厚还是做薄、Fable 5 企业合规与 ZDR 冲突"
+      }
+    },
+    {
+      "date": "2026-06-10",
+      "path": "summaries/2026-06-10",
+      "headline": "v2.1.172 今日发布：子 Agent 可嵌套至 5 层；6/10 Bugbot 审查提速 3 倍（~90s）、检出率 +10%、…",
+      "files": {
+        "readme": "summaries/2026-06-10/README.md",
+        "industry": "summaries/2026-06-10/industry.md",
+        "china_media": "summaries/2026-06-10/china-media.md",
+        "china_ai": "summaries/2026-06-10/china-ai.md",
+        "claude_code": "summaries/2026-06-10/claude-code.md",
+        "cursor": "summaries/2026-06-10/cursor.md",
+        "codex": "summaries/2026-06-10/codex.md"
+      },
+      "tools": [
+        {
+          "id": "claude-code",
+          "name": "Claude Code",
+          "icon": "svgs/claude-code.svg",
+          "one_liner": "v2.1.172 今日发布：子 Agent 可嵌套至 5 层；叠加 6/9 发布的 Claude Fable 5 Mythos 级模型与 Safe Mode 排…"
+        },
+        {
+          "id": "cursor",
+          "name": "Cursor",
+          "icon": "svgs/cursor.svg",
+          "one_liner": "6/10 Bugbot 审查提速 3 倍（~90s）、检出率 +10%、成本 -22%；推送前可用 /review 本地预审"
+        },
+        {
+          "id": "codex",
+          "name": "OpenAI Codex",
+          "icon": "svgs/codex.svg",
+          "one_liner": "今日无更新"
+        }
+      ],
+      "china_summary": "Kimi Code CLI 0.13.0 今日发布（自定义主题 + 从 CC/Codex 一键导入）；Qwen Code CLI 0.17.1 可本地实测",
+      "media_lens": {
+        "consensus": "编程 Agent 从 Prompt 转向 Loop/Harness 工程",
+        "divergence": "ToB 付费意愿 vs 组织变革阻力（详见 china-media.md）"
+      }
+    },
+    {
+      "date": "2026-06-09",
+      "path": "summaries/2026-06-09",
+      "headline": "v2.1.170 接入 Claude Fable 5（Mythos 级公…；今日无新 changelog；今日发布 CLI 0.139.0：Code mode 独立 Web 搜索…",
+      "files": {
+        "readme": "summaries/2026-06-09/README.md",
+        "industry": "summaries/2026-06-09/industry.md",
+        "china_media": "summaries/2026-06-09/china-media.md",
+        "china_ai": "summaries/2026-06-09/china-ai.md",
+        "claude_code": "summaries/2026-06-09/claude-code.md",
+        "cursor": "summaries/2026-06-09/cursor.md",
+        "codex": "summaries/2026-06-09/codex.md"
+      },
+      "tools": [
+        {
+          "id": "claude-code",
+          "name": "Claude Code",
+          "icon": "svgs/claude-code.svg",
+          "one_liner": "v2.1.170 接入 Claude Fable 5（Mythos 级公开模型）；v2.1.169 新增 --safe-mode、/cd、禁用内置技能等排查与多…"
+        },
+        {
+          "id": "cursor",
+          "name": "Cursor",
+          "icon": "svgs/cursor.svg",
+          "one_liner": "今日无新 changelog；近 48 小时焦点为 3.7 浏览器 Design Mode 多选/语音与 SDK 3.7 自定义工具、auto-review、J…"
+        },
+        {
+          "id": "codex",
+          "name": "OpenAI Codex",
+          "icon": "svgs/codex.svg",
+          "one_liner": "今日发布 CLI 0.139.0：Code mode 独立 Web 搜索、MCP schema 增强、codex doctor 环境诊断、插件市场 JSON 改…"
+        }
+      ],
+      "china_summary": "今日多数厂商无公开更新；近期 DeepSeek 识图灰测与 V4 API 迁移倒计时（7/24 停用旧端点）仍值得开发者跟进",
+      "media_lens": {
+        "consensus": "编程 Agent 从「写提示词」转向「循环工程」",
+        "divergence": "36氪/虎嗅对 DeepSeek 出海性价比乐观，对闭源 Agent 稳定性仍认美系领先"
+      }
+    },
+    {
+      "date": "2026-06-08",
+      "path": "summaries/2026-06-08",
+      "headline": "v2.1.169 已装；6/5 浏览器 Design Mode 支持多选元素与语音输入；npm 稳定版 0.137.0",
+      "files": {
+        "readme": "summaries/2026-06-08/README.md",
+        "industry": "summaries/2026-06-08/industry.md",
+        "china_media": "summaries/2026-06-08/china-media.md",
+        "china_ai": "summaries/2026-06-08/china-ai.md",
+        "claude_code": "summaries/2026-06-08/claude-code.md",
+        "cursor": "summaries/2026-06-08/cursor.md",
+        "codex": "summaries/2026-06-08/codex.md"
+      },
+      "tools": [
+        {
+          "id": "claude-code",
+          "name": "Claude Code",
+          "icon": "svgs/claude-code.svg",
+          "one_liner": "v2.1.169 已装；6 月初密集发布 fallbackModel、ultracode 触发词、跨会话消息加固与 Loop Engineering 范式讨论"
+        },
+        {
+          "id": "cursor",
+          "name": "Cursor",
+          "icon": "svgs/cursor.svg",
+          "one_liner": "6/5 浏览器 Design Mode 支持多选元素与语音输入；6/4 SDK 发布 customTools、autoReview、JSONL 存储与无限嵌套 …"
+        },
+        {
+          "id": "codex",
+          "name": "OpenAI Codex",
+          "icon": "svgs/codex.svg",
+          "one_liner": "npm 稳定版 0.137.0；GitHub 今日预发布 0.138.0-alpha.8"
+        }
+      ],
+      "china_summary": "阿里 Qwen Code v0.17.1 零配置 Computer Use + 飞书通道；深圳 AI 创业大赛今日启动报名；蚂蚁 AMP 智能体跨境支付协议获媒体集中报道。",
+      "media_lens": {
+        "consensus": "编程 Agent 正从 Prompt 工程升级为 Loop/飞轮工程",
+        "divergence": "虎嗅强调 token 成本门槛，36氪/InfoQ 强调企业 Spec Driven 与评测闭环。"
+      }
+    },
+    {
+      "date": "2026-06-07",
+      "path": "summaries/2026-06-07",
+      "headline": "2.1.168 稳定版持续迭代：ultracode 动态多 Agent …；3.7 连续两日更新：浏览器 Design Mode 支持多选元素与语音…；npm 稳定版 0.137.0",
+      "files": {
+        "readme": "summaries/2026-06-07/README.md",
+        "industry": "summaries/2026-06-07/industry.md",
+        "china_media": "summaries/2026-06-07/china-media.md",
+        "china_ai": "summaries/2026-06-07/china-ai.md",
+        "claude_code": "summaries/2026-06-07/claude-code.md",
+        "cursor": "summaries/2026-06-07/cursor.md",
+        "codex": "summaries/2026-06-07/codex.md"
+      },
+      "tools": [
+        {
+          "id": "claude-code",
+          "name": "Claude Code",
+          "icon": "svgs/claude-code.svg",
+          "one_liner": "2.1.168 稳定版持续迭代：ultracode 动态多 Agent 编排、fallbackModel 容灾、Auto Mode 扩至 Bedrock/Ver…"
+        },
+        {
+          "id": "cursor",
+          "name": "Cursor",
+          "icon": "svgs/cursor.svg",
+          "one_liner": "3.7 连续两日更新：浏览器 Design Mode 支持多选元素与语音输入；SDK 新增 customTools、JSONL 持久化、autoReview 与…"
+        },
+        {
+          "id": "codex",
+          "name": "OpenAI Codex",
+          "icon": "svgs/codex.svg",
+          "one_liner": "npm 稳定版 0.137.0；GitHub 预发布 0.138.0-alpha.6（6/6）聚焦 Multi-Agent v2、企业云配置包、插件 JSON …"
+        }
+      ],
+      "china_summary": "6 月 5 日腾讯 WorkBuddy 企业版与 6 月 6 日北京智源大会「悟界」系列为本周开发者最值得关注国内事件；多数头部厂商当日无新版本发布。",
+      "media_lens": {
+        "consensus": "暂无",
+        "divergence": "暂无"
+      }
+    },
+    {
+      "date": "2026-06-06",
+      "path": "summaries/2026-06-06",
+      "headline": "v2.1.166/167 上线 fallbackModel 降级链与跨会…；6/4–5 日 SDK auto-review + JSONL stor…；稳定版 0.137.0 含 multi-agent v2 与企业 con…",
+      "files": {
+        "readme": "summaries/2026-06-06/README.md",
+        "industry": "summaries/2026-06-06/industry.md",
+        "china_media": "summaries/2026-06-06/china-media.md",
+        "china_ai": "summaries/2026-06-06/china-ai.md",
+        "claude_code": "summaries/2026-06-06/claude-code.md",
+        "cursor": "summaries/2026-06-06/cursor.md",
+        "codex": "summaries/2026-06-06/codex.md"
+      },
+      "tools": [
+        {
+          "id": "claude-code",
+          "name": "Claude Code",
+          "icon": "svgs/claude-code.svg",
+          "one_liner": "v2.1.166/167 上线 fallbackModel 降级链与跨会话权限加固，生产环境建议今日完成 settings 配置。"
+        },
+        {
+          "id": "cursor",
+          "name": "Cursor",
+          "icon": "svgs/cursor.svg",
+          "one_liner": "6/4–5 日 SDK auto-review + JSONL store + Design Mode 语音/绘制，云环境未测桌面端。"
+        },
+        {
+          "id": "codex",
+          "name": "OpenAI Codex",
+          "icon": "svgs/codex.svg",
+          "one_liner": "稳定版 0.137.0 含 multi-agent v2 与企业 config bundle"
+        }
+      ],
+      "china_summary": "6/5 腾讯 WorkBuddy 企业版 + 华为 Agentic Infra 双大会；6/6 多数厂商无新 changelog。",
+      "media_lens": {
+        "consensus": "企业 Agent 工作台化",
+        "divergence": "36氪偏商业化乐观 vs 虎嗅/Gartner 偏落地谨慎（详见 china-media.md）。"
+      }
+    },
+    {
+      "date": "2026-06-05",
+      "path": "summaries/2026-06-05",
+      "headline": "CLI 本地版本 2.1.165；3.7（6/5） 浏览器 Design Mode 新增多选元素与语音输入；CLI 0.137.0（6/4） 稳定版",
+      "files": {
+        "readme": "summaries/2026-06-05/README.md",
+        "industry": "summaries/2026-06-05/industry.md",
+        "china_media": "summaries/2026-06-05/china-media.md",
+        "china_ai": "summaries/2026-06-05/china-ai.md",
+        "claude_code": "summaries/2026-06-05/claude-code.md",
+        "cursor": "summaries/2026-06-05/cursor.md",
+        "codex": "summaries/2026-06-05/codex.md"
+      },
+      "tools": [
+        {
+          "id": "claude-code",
+          "name": "Claude Code",
+          "icon": "svgs/claude-code.svg",
+          "one_liner": "CLI 本地版本 2.1.165；Anthropic 6/4 发布「When AI Builds Itself」报告，Claude 已合并 80%+ 内部代码"
+        },
+        {
+          "id": "cursor",
+          "name": "Cursor",
+          "icon": "svgs/cursor.svg",
+          "one_liner": "3.7（6/5） 浏览器 Design Mode 新增多选元素与语音输入；6/4 SDK 发布 customTools、autoReview、JSONL 存储与…"
+        },
+        {
+          "id": "codex",
+          "name": "OpenAI Codex",
+          "icon": "svgs/codex.svg",
+          "one_liner": "CLI 0.137.0（6/4） 稳定版；企业云配置 bundle、plugin list --json、Multi-agent v2"
+        }
+      ],
+      "china_summary": "腾讯 WorkBuddy 企业版 + 华为云 Agentic Infra 系列 同日发布，国内 Agent 从个人提效转向组织级 Harness 与治理",
+      "media_lens": {
+        "consensus": "Agent 进入企业「效率时刻」与 Harness 工程化",
+        "divergence": "36氪强调分发层（Codex×ChatGPT），虎嗅强调组织流程才是新瓶颈"
+      }
+    },
+    {
+      "date": "2026-06-04",
+      "path": "summaries/2026-06-04",
+      "headline": "当日发布 v2.1.163：企业可锁版本区间、/plugin list …；3.7（6 月 4 日）：Canvas 内 Design Mode + …；GitHub 当日连发 0.138.0-alpha.1–4",
+      "files": {
+        "readme": "summaries/2026-06-04/README.md",
+        "industry": "summaries/2026-06-04/industry.md",
+        "china_media": "summaries/2026-06-04/china-media.md",
+        "china_ai": "summaries/2026-06-04/china-ai.md",
+        "claude_code": "summaries/2026-06-04/claude-code.md",
+        "cursor": "summaries/2026-06-04/cursor.md",
+        "codex": "summaries/2026-06-04/codex.md"
+      },
+      "tools": [
+        {
+          "id": "claude-code",
+          "name": "Claude Code",
+          "icon": "svgs/claude-code.svg",
+          "one_liner": "当日发布 v2.1.163：企业可锁版本区间、/plugin list 与 /btw 复制、Hook 可回传上下文而不报错"
+        },
+        {
+          "id": "cursor",
+          "name": "Cursor",
+          "icon": "svgs/cursor.svg",
+          "one_liner": "3.7（6 月 4 日）：Canvas 内 Design Mode + 上下文用量报告；企业多团队组织昨日 GA"
+        },
+        {
+          "id": "codex",
+          "name": "OpenAI Codex",
+          "icon": "svgs/codex.svg",
+          "one_liner": "GitHub 当日连发 0.138.0-alpha.1–4；npm 稳定版仍为 0.137.0"
+        }
+      ],
+      "china_summary": "编程 Agent/IDE 当日无各官网 changelog 级更新；值得跟进的近期信号：字节 Bernini 开源、DeepSeek 识图灰度（非今日）",
+      "media_lens": {
+        "consensus": "大厂从「全员堆 Token」转向 ROI/配额管理",
+        "divergence": "虎嗅强调 95% 试点无财务回报，量子位仍押注世界模型/物理 AI 长赛道 — 见 china-media.md"
+      }
+    },
+    {
+      "date": "2026-06-03",
+      "path": "summaries/2026-06-03",
+      "headline": "npm 实测 2.1.162；2026-06-03 Enterprise GA：Organizatio…",
+      "files": {
+        "readme": "summaries/2026-06-03/README.md",
+        "industry": "summaries/2026-06-03/industry.md",
+        "china_media": "summaries/2026-06-03/china-media.md",
+        "china_ai": "summaries/2026-06-03/china-ai.md",
+        "claude_code": "summaries/2026-06-03/claude-code.md",
+        "cursor": "summaries/2026-06-03/cursor.md",
+        "codex": "summaries/2026-06-03/codex.md"
+      },
+      "tools": [
+        {
+          "id": "claude-code",
+          "name": "Claude Code",
+          "icon": "svgs/claude-code.svg",
+          "one_liner": "npm 实测 2.1.162；昨日发布 2.1.161 重点：并行 Bash 失败不再拖垮同批工具、OTEL 指标标签、MCP 密钥脱敏、Linux 剪贴板与第…"
+        },
+        {
+          "id": "cursor",
+          "name": "Cursor",
+          "icon": "svgs/cursor.svg",
+          "one_liner": "2026-06-03 Enterprise GA：Organization"
+        },
+        {
+          "id": "codex",
+          "name": "OpenAI Codex",
+          "icon": "svgs/codex.svg",
+          "one_liner": "今日无更新"
+        }
+      ],
+      "china_summary": "暂无国内综述",
+      "media_lens": {
+        "consensus": "暂无",
+        "divergence": "暂无"
+      }
+    },
+    {
+      "date": "2026-06-02",
+      "path": "summaries/2026-06-02",
+      "headline": "安全确认、ultracode 改名、grep 后可直接编辑；3.6 Auto-review、Automations、Composer…；Sites / Annotations / 角色插件",
+      "files": {
+        "readme": "summaries/2026-06-02/README.md",
+        "industry": "summaries/2026-06-02/industry.md",
+        "claude_code": "summaries/2026-06-02/claude-code.md",
+        "cursor": "summaries/2026-06-02/cursor.md",
+        "codex": "summaries/2026-06-02/codex.md"
+      },
+      "tools": [
+        {
+          "id": "claude-code",
+          "name": "Claude Code",
+          "icon": "svgs/claude-code.svg",
+          "one_liner": "安全确认、ultracode 改名、grep 后可直接编辑"
+        },
+        {
+          "id": "cursor",
+          "name": "Cursor",
+          "icon": "svgs/cursor.svg",
+          "one_liner": "3.6 Auto-review、Automations、Composer 2.5"
+        },
+        {
+          "id": "codex",
+          "name": "OpenAI Codex",
+          "icon": "svgs/codex.svg",
+          "one_liner": "Sites / Annotations / 角色插件"
+        }
+      ],
+      "china_summary": "暂无国内综述",
+      "media_lens": {
+        "consensus": "暂无",
+        "divergence": "暂无"
       }
     }
   ]

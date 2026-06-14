@@ -81,6 +81,21 @@ function extractSection(markdown, heading) {
   return match ? match[1].trim() : '';
 }
 
+function extractFirstSection(markdown, headings) {
+  for (const heading of headings) {
+    const section = extractSection(markdown, heading);
+    if (section) return section;
+  }
+  return '';
+}
+
+function normalizeLabel(label) {
+  const aliases = {
+    国内厂商: '国内综述',
+  };
+  return aliases[label] || label;
+}
+
 function parseMarkdownTable(section) {
   const rows = [];
   for (const line of section.split('\n')) {
@@ -90,26 +105,50 @@ function parseMarkdownTable(section) {
       .split('|')
       .slice(1, -1)
       .map((c) => stripMarkdown(c.trim()));
-    if (cells.length >= 2) rows.push({ label: cells[0], value: cells[1] });
+    if (cells.length >= 2) rows.push({ label: normalizeLabel(cells[0]), value: cells[1], cells });
   }
   return rows;
 }
 
 function parseConclusionTable(readme) {
-  const section = extractSection(readme, '今日一句话结论');
+  const section = extractFirstSection(readme, ['今日一句话结论', '一句话结论']);
   const map = new Map();
   for (const row of parseMarkdownTable(section)) {
     map.set(row.label, row.value);
   }
+
+  // 2026-06-02 等早期格式：从「三大工具速览」表补全工具结论
+  if (!map.get('Claude Code') || !map.get('Cursor') || !map.get('Codex')) {
+    const legacyTools = extractSection(readme, '三大工具速览');
+    for (const row of parseMarkdownTable(legacyTools)) {
+      const toolName = row.label;
+      const summary = row.cells?.[2] || row.value;
+      if (['Claude Code', 'Cursor', 'Codex'].includes(toolName) && summary) {
+        map.set(toolName, summary);
+      }
+    }
+  }
+
   return map;
 }
 
 function parseTriggerAt(readme, date) {
-  const match = readme.match(/检索触发时间[：:]\s*(\d{4}-\d{2}-\d{2}T[\d:.]+Z?)/);
-  if (match) {
+  const patterns = [
+    /检索触发时间[（(]UTC[）)]*[：:]\s*(\d{4}-\d{2}-\d{2}T[\d:.]+Z?)/,
+    /检索触发时间[：:]\s*(\d{4}-\d{2}-\d{2}T[\d:.]+Z?)/,
+    /生成时间[：:]\s*(\d{4}-\d{2}-\d{2})[ T]([\d:.]+)\s*UTC/,
+  ];
+
+  for (const pattern of patterns) {
+    const match = readme.match(pattern);
+    if (!match) continue;
+    if (match.length === 3) {
+      return `${match[1]}T${match[2].replace(/ /g, '')}Z`;
+    }
     const value = match[1];
     return value.endsWith('Z') ? value : `${value}Z`;
   }
+
   return `${date}T08:00:00.000Z`;
 }
 
@@ -119,8 +158,8 @@ function parseMediaLens(readme, conclusions) {
   let consensus = '';
   let divergence = '';
 
-  const consensusMatch = mediaRow.match(/共识[：:]\s*([^；]+)/);
-  const divergenceMatch = mediaRow.match(/最大分歧[：:]\s*(.+)$/);
+  const consensusMatch = mediaRow.match(/共识[：:*\s]*([^；]+)/);
+  const divergenceMatch = mediaRow.match(/(?:最大)?分歧[：:*\s]*(.+)$/);
 
   if (consensusMatch) consensus = stripMarkdown(consensusMatch[1]);
   if (divergenceMatch) divergence = stripMarkdown(divergenceMatch[1]);
