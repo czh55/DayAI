@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-06-14T09:30:00Z",
-  "trigger_at": "2026-06-14T08:43:43.767Z",
+  "generated_at": "2026-06-14T09:23:27.408Z",
+  "trigger_at": "2026-06-14T08:43:43Z",
   "latest_date": "2026-06-14",
   "summaries": [
     {
       "date": "2026-06-14",
       "path": "summaries/2026-06-14",
-      "headline": "Anthropic Fable 5 遭美国出口管制全球停服；Cursor Bugbot 提速至约 90 秒；Codex CLI 0.139.0 支持 Code mode Web Search",
+      "headline": "Fable 5 上线三天即遭美国政府出口管制令全球停用；Bugbot 6 月 10 日更新：Composer 2.5 驱动下审查…；CLI 稳定版 0.139.0（6 月 9 日）+ App 26.609…",
       "files": {
         "readme": "summaries/2026-06-14/README.md",
         "industry": "summaries/2026-06-14/industry.md",
@@ -21,25 +21,25 @@
           "id": "claude-code",
           "name": "Claude Code",
           "icon": "svgs/claude-code.svg",
-          "one_liner": "Fable 5 停服；ultracode 动态工作流与 --safe-mode 排障可用"
+          "one_liner": "Fable 5 上线三天即遭美国政府出口管制令全球停用；Claude Code 2.1.177 已支持 ultracode 动态工作流与 --safe-mode…"
         },
         {
           "id": "cursor",
           "name": "Cursor",
           "icon": "svgs/cursor.svg",
-          "one_liner": "Bugbot 审查约 90 秒；推送前 /review 与 PR 去重"
+          "one_liner": "Bugbot 6 月 10 日更新：Composer 2.5 驱动下审查提速至约 90 秒，本地 /review 可与 GitHub/GitLab PR 去重。"
         },
         {
           "id": "codex",
           "name": "OpenAI Codex",
           "icon": "svgs/codex.svg",
-          "one_liner": "CLI 0.139.0 Code mode Web Search；App 26.609 Browser Developer mode"
+          "one_liner": "CLI 稳定版 0.139.0（6 月 9 日）+ App 26.609（6 月 11 日）带来 Code mode 独立 Web Search 与 Brows…"
         }
       ],
-      "china_summary": "国内厂商今日无公开更新；开发者需应对 Fable 5 跨境断供并迁移 DeepSeek 旧 model ID",
+      "china_summary": "今日国内头部厂商无重大新产品发布；开发者最需关注 Anthropic Fable 5 全球停服对跨境 API 与编程 Agent 选型的冲击。",
       "media_lens": {
-        "consensus": "编程 Agent 从提示词转向 Loop/Goal 长程编排",
-        "divergence": "36氪押注范式变革，量子位聚焦御三家竞速与监管打断"
+        "consensus": "编程 Agent 正从提示词工程转向 Loop/Goal 长程编排",
+        "divergence": "36氪强调 Loop 工程范式转移，量子位聚焦御三家模型竞速与 Fable 5 停服冲击。"
       }
     }
   ]
