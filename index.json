@@ -1,0 +1,46 @@
+{
+  "generated_at": "2026-06-14T09:30:00Z",
+  "trigger_at": "2026-06-14T08:43:43.767Z",
+  "latest_date": "2026-06-14",
+  "summaries": [
+    {
+      "date": "2026-06-14",
+      "path": "summaries/2026-06-14",
+      "headline": "Anthropic Fable 5 遭美国出口管制全球停服；Cursor Bugbot 提速至约 90 秒；Codex CLI 0.139.0 支持 Code mode Web Search",
+      "files": {
+        "readme": "summaries/2026-06-14/README.md",
+        "industry": "summaries/2026-06-14/industry.md",
+        "china_media": "summaries/2026-06-14/china-media.md",
+        "china_ai": "summaries/2026-06-14/china-ai.md",
+        "claude_code": "summaries/2026-06-14/claude-code.md",
+        "cursor": "summaries/2026-06-14/cursor.md",
+        "codex": "summaries/2026-06-14/codex.md"
+      },
+      "tools": [
+        {
+          "id": "claude-code",
+          "name": "Claude Code",
+          "icon": "svgs/claude-code.svg",
+          "one_liner": "Fable 5 停服；ultracode 动态工作流与 --safe-mode 排障可用"
+        },
+        {
+          "id": "cursor",
+          "name": "Cursor",
+          "icon": "svgs/cursor.svg",
+          "one_liner": "Bugbot 审查约 90 秒；推送前 /review 与 PR 去重"
+        },
+        {
+          "id": "codex",
+          "name": "OpenAI Codex",
+          "icon": "svgs/codex.svg",
+          "one_liner": "CLI 0.139.0 Code mode Web Search；App 26.609 Browser Developer mode"
+        }
+      ],
+      "china_summary": "国内厂商今日无公开更新；开发者需应对 Fable 5 跨境断供并迁移 DeepSeek 旧 model ID",
+      "media_lens": {
+        "consensus": "编程 Agent 从提示词转向 Loop/Goal 长程编排",
+        "divergence": "36氪押注范式变革，量子位聚焦御三家竞速与监管打断"
+      }
+    }
+  ]
+}
