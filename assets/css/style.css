@@ -139,6 +139,10 @@ body {
 .view[hidden] { display: none !important; }
 
 /* Loading & Error */
+.loading[hidden] {
+  display: none !important;
+}
+
 .loading {
   display: flex;
   flex-direction: column;
