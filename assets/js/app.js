@@ -28,7 +28,10 @@ const state = {
   currentDate: null,
   currentSection: null,
   loading: false,
+  calendarView: null,
 };
+
+const WEEKDAYS = ['日', '一', '二', '三', '四', '五', '六'];
 
 const $ = (sel) => document.querySelector(sel);
 
@@ -69,6 +72,146 @@ function formatDate(dateStr) {
 
 function getSummaryByDate(date) {
   return state.index?.summaries?.find((s) => s.date === date) ?? null;
+}
+
+function getAvailableDates() {
+  return new Set((state.index?.summaries ?? []).map((s) => s.date));
+}
+
+function getSummaryMap() {
+  return new Map((state.index?.summaries ?? []).map((s) => [s.date, s]));
+}
+
+function pad2(n) {
+  return String(n).padStart(2, '0');
+}
+
+function toDateStr(year, month, day) {
+  return `${year}-${pad2(month)}-${pad2(day)}`;
+}
+
+function parseDateStr(dateStr) {
+  const [y, m, d] = dateStr.split('-').map(Number);
+  return { year: y, month: m, day: d };
+}
+
+function getTodayStr() {
+  const now = new Date();
+  return toDateStr(now.getFullYear(), now.getMonth() + 1, now.getDate());
+}
+
+function ensureCalendarView(fallbackDate) {
+  if (!state.calendarView) {
+    const { year, month } = parseDateStr(fallbackDate);
+    state.calendarView = { year, month };
+  }
+  return state.calendarView;
+}
+
+function shiftCalendarMonth(delta) {
+  const view = state.calendarView || { year: new Date().getFullYear(), month: new Date().getMonth() + 1 };
+  let { year, month } = view;
+  month += delta;
+  while (month < 1) {
+    month += 12;
+    year -= 1;
+  }
+  while (month > 12) {
+    month -= 12;
+    year += 1;
+  }
+  state.calendarView = { year, month };
+}
+
+function buildCalendarHtml({ selectedDate = null, compact = false } = {}) {
+  const dates = getAvailableDates();
+  const summaryMap = getSummaryMap();
+  const fallback = selectedDate || state.index?.latest_date || [...dates].sort().pop() || getTodayStr();
+  const { year, month } = ensureCalendarView(fallback);
+
+  const firstDow = new Date(year, month - 1, 1).getDay();
+  const daysInMonth = new Date(year, month, 0).getDate();
+  const today = getTodayStr();
+
+  const weekdayHtml = WEEKDAYS.map((d) => `<span class="cal-weekday">${d}</span>`).join('');
+
+  let cellsHtml = '';
+  for (let i = 0; i < firstDow; i += 1) {
+    cellsHtml += '<span class="cal-day cal-day--pad" aria-hidden="true"></span>';
+  }
+
+  for (let day = 1; day <= daysInMonth; day += 1) {
+    const dateStr = toDateStr(year, month, day);
+    const hasSummary = dates.has(dateStr);
+    const classes = ['cal-day'];
+    if (hasSummary) classes.push('cal-day--has-summary');
+    if (dateStr === today) classes.push('cal-day--today');
+    if (selectedDate === dateStr) classes.push('cal-day--selected');
+
+    const summary = summaryMap.get(dateStr);
+    const title = summary ? summary.headline : '';
+
+    if (hasSummary) {
+      cellsHtml += `<a href="#/${dateStr}" class="${classes.join(' ')}" title="${escapeHtml(title)}">${day}</a>`;
+    } else {
+      cellsHtml += `<span class="${classes.join(' ')} cal-day--disabled" aria-disabled="true">${day}</span>`;
+    }
+  }
+
+  const compactClass = compact ? ' calendar--compact' : '';
+
+  return `
+    <div class="calendar${compactClass}" data-calendar>
+      <div class="calendar-header">
+        <button type="button" class="cal-nav-btn" data-cal-prev aria-label="上个月">‹</button>
+        <span class="calendar-title">${year} 年 ${month} 月</span>
+        <button type="button" class="cal-nav-btn" data-cal-next aria-label="下个月">›</button>
+      </div>
+      <div class="calendar-weekdays">${weekdayHtml}</div>
+      <div class="calendar-grid">${cellsHtml}</div>
+      <div class="calendar-legend">
+        <span class="cal-legend-item"><span class="cal-legend-dot cal-legend-dot--summary"></span>有总结</span>
+        <span class="cal-legend-item"><span class="cal-legend-dot cal-legend-dot--today"></span>今天</span>
+      </div>
+    </div>`;
+}
+
+function refreshCalendarWidget() {
+  const route = parseRoute();
+
+  if (route.view === 'home') {
+    const host = els.viewHome?.querySelector('.home-calendar-wrap');
+    if (host) {
+      const latest = state.index?.summaries?.[0]?.date ?? null;
+      host.innerHTML = buildCalendarHtml({ selectedDate: latest });
+      bindCalendarEvents(host);
+    }
+    return;
+  }
+
+  const host = els.viewDay?.querySelector('.sidebar-calendar');
+  if (host) {
+    host.innerHTML = buildCalendarHtml({ selectedDate: route.date, compact: true });
+    bindCalendarEvents(host);
+  }
+}
+
+function bindCalendarEvents(root = document) {
+  root.querySelectorAll('[data-cal-prev]').forEach((btn) => {
+    btn.addEventListener('click', (e) => {
+      e.preventDefault();
+      shiftCalendarMonth(-1);
+      refreshCalendarWidget();
+    });
+  });
+
+  root.querySelectorAll('[data-cal-next]').forEach((btn) => {
+    btn.addEventListener('click', (e) => {
+      e.preventDefault();
+      shiftCalendarMonth(1);
+      refreshCalendarWidget();
+    });
+  });
 }
 
 function getAdjacentDates(date) {
@@ -206,16 +349,7 @@ function renderHome() {
       </a>`;
   }
 
-  const dateCards = summaries
-    .map((s) => {
-      const isLatest = s.date === latest?.date;
-      return `
-        <a href="#/${s.date}" class="date-card${isLatest ? ' is-latest' : ''}">
-          <div class="date-card-date">${formatDate(s.date)}</div>
-          <p class="date-card-headline">${escapeHtml(s.headline)}</p>
-        </a>`;
-    })
-    .join('');
+  const calendarHtml = buildCalendarHtml({ selectedDate: latest?.date ?? null });
 
   const toolsHtml =
     latest?.tools
@@ -234,13 +368,15 @@ function renderHome() {
       <p>Claude Code · Cursor · Codex · 国内 AI 动态</p>
     </div>
     ${latestCard}
-    <h2 class="section-title">历史归档</h2>
-    <div class="date-grid">${dateCards || '<p>暂无总结数据</p>'}</div>
+    <h2 class="section-title">日历翻阅</h2>
+    <div class="home-calendar-wrap">${calendarHtml}</div>
     ${
       toolsHtml
         ? `<h2 class="section-title">今日工具速览</h2><div class="tools-row">${toolsHtml}</div>`
         : ''
     }`;
+
+  bindCalendarEvents(els.viewHome);
 }
 
 async function renderDay(date, sectionKey) {
@@ -263,10 +399,15 @@ async function renderDay(date, sectionKey) {
     return;
   }
 
+  const dateChanged = state.currentDate !== date;
   state.currentDate = date;
   state.currentSection = activeSection;
+  if (dateChanged || !state.calendarView) {
+    state.calendarView = parseDateStr(date);
+  }
 
   const { prev, next } = getAdjacentDates(date);
+  const calendarHtml = buildCalendarHtml({ selectedDate: date, compact: true });
 
   const navGroups = ['概览', '国内', '工具'];
   const navHtml = navGroups
@@ -319,7 +460,8 @@ async function renderDay(date, sectionKey) {
           <p class="day-headline">${escapeHtml(summary.headline)}</p>
         </div>
         <ul class="nav-sections">${navHtml}</ul>
-        <div class="day-nav-dates" style="margin-top:1.5rem;font-size:0.85rem;display:flex;gap:1rem;">
+        <div class="sidebar-calendar">${calendarHtml}</div>
+        <div class="day-nav-dates" style="margin-top:1rem;font-size:0.85rem;display:flex;gap:1rem;">
           ${prev ? `<a href="#/${prev}" style="color:var(--text-secondary)">← ${prev}</a>` : ''}
           ${next ? `<a href="#/${next}" style="color:var(--text-secondary);margin-left:auto">${next} →</a>` : ''}
         </div>
@@ -332,6 +474,8 @@ async function renderDay(date, sectionKey) {
         </article>
       </div>
     </div>`;
+
+  bindCalendarEvents(els.viewDay);
 
   try {
     const html = await renderMarkdown(filePath);
