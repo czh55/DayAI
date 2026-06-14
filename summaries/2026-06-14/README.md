@@ -1,6 +1,6 @@
 # DayAI 每日资讯索引 — 2026-06-14
 
-> 检索触发时间：2026-06-14T09:26:05Z（UTC）｜本地 CLI 实测环境：`/workspace/tools`
+> 检索触发时间：2026-06-14T22:01:04Z（UTC）｜本地 CLI 实测环境：`/workspace/tools`
 
 ## 今日一句话结论
 
@@ -38,7 +38,8 @@
 | 工具 | 版本 | 结果 |
 |------|------|------|
 | Claude Code | 2.1.177 | ✅ `--version` / `--help` 正常；221 行帮助输出 |
-| Codex CLI | 0.139.0 | ✅ `--version` / `doctor` / `features list` 正常；⚠️ 无 API Key 无法实测推理 |
+| Codex CLI | 0.139.0 | ✅ `--version` / `doctor` / `features list` 正常（12 ok · 4 fail，auth 未登录）；⚠️ 无 API Key 无法实测推理 |
+| Codex 预发布 | 0.140.0-alpha.19 | ℹ️ GitHub 6/14 02:03 UTC 发布，npm `@latest` 仍为 0.139.0 |
 | DeepSeek API | — | ⚠️ 未实测（无 `DEEPSEEK_API_KEY`）；文档 SOP 已写入 `china-ai.md` |
 
 ```bash
