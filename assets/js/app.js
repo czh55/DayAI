@@ -29,6 +29,7 @@ const state = {
   currentSection: null,
   loading: false,
   calendarView: null,
+  calendarOpen: false,
 };
 
 const WEEKDAYS = ['日', '一', '二', '三', '四', '五', '六'];
@@ -41,6 +42,9 @@ const els = {
   viewHome: $('#view-home'),
   viewDay: $('#view-day'),
   main: $('#main'),
+  calendarPanel: $('#calendar-panel'),
+  calendarHost: $('#calendar-host'),
+  calendarToggle: $('#calendar-toggle'),
 };
 
 /** Resolve asset URLs for GitHub Pages project sites (/repo/) and local dev */
@@ -176,24 +180,54 @@ function buildCalendarHtml({ selectedDate = null, compact = false } = {}) {
     </div>`;
 }
 
-function refreshCalendarWidget() {
+function formatDateShort(dateStr) {
+  const [y, m, d] = dateStr.split('-').map(Number);
+  const date = new Date(y, m - 1, d);
+  const weekdays = ['日', '一', '二', '三', '四', '五', '六'];
+  return `${dateStr}（周${weekdays[date.getDay()]}）`;
+}
+
+function getCalendarSelectedDate() {
   const route = parseRoute();
+  if (route.view === 'day') return route.date;
+  return state.index?.latest_date ?? null;
+}
 
-  if (route.view === 'home') {
-    const host = els.viewHome?.querySelector('.home-calendar-wrap');
-    if (host) {
-      const latest = state.index?.summaries?.[0]?.date ?? null;
-      host.innerHTML = buildCalendarHtml({ selectedDate: latest });
-      bindCalendarEvents(host);
-    }
-    return;
-  }
+function setCalendarOpen(open) {
+  state.calendarOpen = open;
+  if (!els.calendarPanel || !els.calendarToggle) return;
 
-  const host = els.viewDay?.querySelector('.sidebar-calendar');
-  if (host) {
-    host.innerHTML = buildCalendarHtml({ selectedDate: route.date, compact: true });
-    bindCalendarEvents(host);
+  els.calendarPanel.hidden = !open;
+  els.calendarToggle.setAttribute('aria-expanded', String(open));
+  els.calendarToggle.classList.toggle('is-active', open);
+
+  if (open) {
+    renderHeaderCalendar();
   }
+}
+
+function renderHeaderCalendar() {
+  if (!els.calendarHost) return;
+  const selectedDate = getCalendarSelectedDate();
+  els.calendarHost.innerHTML = buildCalendarHtml({ selectedDate, compact: true });
+  bindCalendarEvents(els.calendarHost);
+}
+
+function refreshCalendarWidget() {
+  if (!state.calendarOpen) return;
+  renderHeaderCalendar();
+}
+
+function buildDailyListHtml(summaries) {
+  if (!summaries.length) return '<p class="daily-list-empty">暂无总结数据</p>';
+
+  return summaries
+    .map((s) => `
+      <a href="#/${s.date}" class="daily-row">
+        <time class="daily-date" datetime="${s.date}">${formatDateShort(s.date)}</time>
+        <span class="daily-summary">${escapeHtml(s.headline)}</span>
+      </a>`)
+    .join('');
 }
 
 function bindCalendarEvents(root = document) {
@@ -337,20 +371,10 @@ function renderHome() {
   const summaries = [...(state.index?.summaries ?? [])].sort(
     (a, b) => b.date.localeCompare(a.date),
   );
+
+  const dailyListHtml = buildDailyListHtml(summaries);
+
   const latest = summaries[0];
-
-  let latestCard = '';
-  if (latest) {
-    latestCard = `
-      <a href="#/${latest.date}" class="latest-card">
-        <span class="latest-label">最新一期</span>
-        <div class="latest-date">${formatDate(latest.date)}</div>
-        <p class="latest-headline">${escapeHtml(latest.headline)}</p>
-      </a>`;
-  }
-
-  const calendarHtml = buildCalendarHtml({ selectedDate: latest?.date ?? null });
-
   const toolsHtml =
     latest?.tools
       ?.map(
@@ -367,16 +391,13 @@ function renderHome() {
       <h1>DayAI 每日资讯</h1>
       <p>Claude Code · Cursor · Codex · 国内 AI 动态</p>
     </div>
-    ${latestCard}
-    <h2 class="section-title">日历翻阅</h2>
-    <div class="home-calendar-wrap">${calendarHtml}</div>
+    <h2 class="section-title">每日一句话</h2>
+    <div class="daily-list">${dailyListHtml}</div>
     ${
       toolsHtml
         ? `<h2 class="section-title">今日工具速览</h2><div class="tools-row">${toolsHtml}</div>`
         : ''
     }`;
-
-  bindCalendarEvents(els.viewHome);
 }
 
 async function renderDay(date, sectionKey) {
@@ -407,7 +428,6 @@ async function renderDay(date, sectionKey) {
   }
 
   const { prev, next } = getAdjacentDates(date);
-  const calendarHtml = buildCalendarHtml({ selectedDate: date, compact: true });
 
   const navGroups = ['概览', '国内', '工具'];
   const navHtml = navGroups
@@ -460,7 +480,6 @@ async function renderDay(date, sectionKey) {
           <p class="day-headline">${escapeHtml(summary.headline)}</p>
         </div>
         <ul class="nav-sections">${navHtml}</ul>
-        <div class="sidebar-calendar">${calendarHtml}</div>
         <div class="day-nav-dates" style="margin-top:1rem;font-size:0.85rem;display:flex;gap:1rem;">
           ${prev ? `<a href="#/${prev}" style="color:var(--text-secondary)">← ${prev}</a>` : ''}
           ${next ? `<a href="#/${next}" style="color:var(--text-secondary);margin-left:auto">${next} →</a>` : ''}
@@ -474,8 +493,6 @@ async function renderDay(date, sectionKey) {
         </article>
       </div>
     </div>`;
-
-  bindCalendarEvents(els.viewDay);
 
   try {
     const html = await renderMarkdown(filePath);
@@ -520,12 +537,39 @@ async function render() {
     els.viewDay.hidden = true;
   } finally {
     showLoading(false);
+    if (state.calendarOpen) {
+      renderHeaderCalendar();
+    }
   }
 
   document.title =
     route.view === 'day'
       ? `${route.date} — DayAI`
       : 'DayAI 每日资讯';
+}
+
+function initCalendarToggle() {
+  els.calendarToggle?.addEventListener('click', (e) => {
+    e.stopPropagation();
+    setCalendarOpen(!state.calendarOpen);
+  });
+
+  document.addEventListener('click', (e) => {
+    if (!state.calendarOpen) return;
+    if (e.target.closest('.calendar-dropdown')) return;
+    setCalendarOpen(false);
+  });
+
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && state.calendarOpen) {
+      setCalendarOpen(false);
+    }
+  });
+
+  els.calendarPanel?.addEventListener('click', (e) => {
+    const dayLink = e.target.closest('a.cal-day--has-summary');
+    if (dayLink) setCalendarOpen(false);
+  });
 }
 
 function initTheme() {
@@ -565,6 +609,7 @@ function initRouter() {
 function init() {
   setupMarked();
   initTheme();
+  initCalendarToggle();
   initRouter();
   render();
 }
