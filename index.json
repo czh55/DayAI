@@ -1,8 +1,47 @@
 {
-  "generated_at": "2026-06-14T22:02:40.491Z",
-  "trigger_at": "2026-06-14T22:01:04Z",
-  "latest_date": "2026-06-14",
+  "generated_at": "2026-06-15T22:04:04.745Z",
+  "trigger_at": "2026-06-15T22:00:27Z",
+  "latest_date": "2026-06-15",
   "summaries": [
+    {
+      "date": "2026-06-15",
+      "path": "summaries/2026-06-15",
+      "headline": "2.1.178 发布：子 Agent 可嵌套 5 层、enforceAv…；Changelog 无 6 月 15 日新条目；0.140.0 稳定版于 6 月 15 日 21:06 UTC 发布：新…",
+      "files": {
+        "readme": "summaries/2026-06-15/README.md",
+        "industry": "summaries/2026-06-15/industry.md",
+        "china_media": "summaries/2026-06-15/china-media.md",
+        "china_ai": "summaries/2026-06-15/china-ai.md",
+        "claude_code": "summaries/2026-06-15/claude-code.md",
+        "cursor": "summaries/2026-06-15/cursor.md",
+        "codex": "summaries/2026-06-15/codex.md"
+      },
+      "tools": [
+        {
+          "id": "claude-code",
+          "name": "Claude Code",
+          "icon": "svgs/claude-code.svg",
+          "one_liner": "2.1.178 发布：子 Agent 可嵌套 5 层、enforceAvailableModels 托管策略、Fable 5 停服后 auto mode 自动回…"
+        },
+        {
+          "id": "cursor",
+          "name": "Cursor",
+          "icon": "svgs/cursor.svg",
+          "one_liner": "Changelog 无 6 月 15 日新条目；6 月 10 日 Bugbot 提速（Composer 2.5 驱动"
+        },
+        {
+          "id": "codex",
+          "name": "OpenAI Codex",
+          "icon": "svgs/codex.svg",
+          "one_liner": "0.140.0 稳定版于 6 月 15 日 21:06 UTC 发布：新增 /import 从 Claude Code 迁移、/usage 用量视图、永久会话删…"
+        }
+      ],
+      "china_summary": "小米 MiMo Code（6/11 开源）与 DeepSeek Harness 团队招聘持续发酵；头部厂商今日无重大版本发布，开发者应关注 Fable 5 停服后的跨境模型备选。",
+      "media_lens": {
+        "consensus": "AI 编程竞争焦点从模型参数转向 Harness/Loop 长程编排",
+        "divergence": "36氪强调「监工角色」组织变革，量子位聚焦 ALE 基准与 Fable 5 停服冲击。"
+      }
+    },
     {
       "date": "2026-06-14",
       "path": "summaries/2026-06-14",
