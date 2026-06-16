@@ -1,8 +1,47 @@
 {
-  "generated_at": "2026-06-15T22:04:04.745Z",
-  "trigger_at": "2026-06-15T22:00:27Z",
-  "latest_date": "2026-06-15",
+  "generated_at": "2026-06-16T22:04:53.794Z",
+  "trigger_at": "2026-06-16T22:00:27Z",
+  "latest_date": "2026-06-16",
   "summaries": [
+    {
+      "date": "2026-06-16",
+      "path": "summaries/2026-06-16",
+      "headline": "2.1.179 patch：WSL2 滚轮回归修复、流式断连保留 par…；Changelog 无 6 月 16 日新条目；App 侧：6/16 官方宣布 EEA/UK/瑞士上线 Computer…",
+      "files": {
+        "readme": "summaries/2026-06-16/README.md",
+        "industry": "summaries/2026-06-16/industry.md",
+        "china_media": "summaries/2026-06-16/china-media.md",
+        "china_ai": "summaries/2026-06-16/china-ai.md",
+        "claude_code": "summaries/2026-06-16/claude-code.md",
+        "cursor": "summaries/2026-06-16/cursor.md",
+        "codex": "summaries/2026-06-16/codex.md"
+      },
+      "tools": [
+        {
+          "id": "claude-code",
+          "name": "Claude Code",
+          "icon": "svgs/claude-code.svg",
+          "one_liner": "2.1.179 patch：WSL2 滚轮回归修复、流式断连保留 partial 响应、Tool(param:value) 权限语法与 sandbox glob…"
+        },
+        {
+          "id": "cursor",
+          "name": "Cursor",
+          "icon": "svgs/cursor.svg",
+          "one_liner": "Changelog 无 6 月 16 日新条目；6 月 10 日 Bugbot（Composer 2.5"
+        },
+        {
+          "id": "codex",
+          "name": "OpenAI Codex",
+          "icon": "svgs/codex.svg",
+          "one_liner": "App 侧：6/16 官方宣布 EEA/UK/瑞士上线 Computer Use、Chrome 扩展、Memories 与 Chronicle"
+        }
+      ],
+      "china_summary": "DeepSeek Harness 团队招聘持续、官方编程 Agent 仍未发布；头部厂商今日无重大版本发布，Fable 5 停服第 5 天推动跨境 Harness 备选评估。",
+      "media_lens": {
+        "consensus": "AI 编程竞争焦点从模型参数转向 Harness/Loop 长程编排",
+        "divergence": "36氪强调「监工角色」组织变革，量子位聚焦 Fable 5 评测与 GPT-5.6 内测传闻。"
+      }
+    },
     {
       "date": "2026-06-15",
       "path": "summaries/2026-06-15",
