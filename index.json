@@ -1,8 +1,47 @@
 {
-  "generated_at": "2026-06-16T22:04:53.794Z",
-  "trigger_at": "2026-06-16T22:00:27Z",
-  "latest_date": "2026-06-16",
+  "generated_at": "2026-06-17T22:05:47.549Z",
+  "trigger_at": "2026-06-17T22:02:23Z",
+  "latest_date": "2026-06-17",
   "summaries": [
+    {
+      "date": "2026-06-17",
+      "path": "summaries/2026-06-17",
+      "headline": "2.1.179 维持最新 npm 版；3.7（6/17） 重磅：云环境 10 分钟快照、/in-cloud 云…；CLI 稳定版 0.140.0",
+      "files": {
+        "readme": "summaries/2026-06-17/README.md",
+        "industry": "summaries/2026-06-17/industry.md",
+        "china_media": "summaries/2026-06-17/china-media.md",
+        "china_ai": "summaries/2026-06-17/china-ai.md",
+        "claude_code": "summaries/2026-06-17/claude-code.md",
+        "cursor": "summaries/2026-06-17/cursor.md",
+        "codex": "summaries/2026-06-17/codex.md"
+      },
+      "tools": [
+        {
+          "id": "claude-code",
+          "name": "Claude Code",
+          "icon": "svgs/claude-code.svg",
+          "one_liner": "2.1.179 维持最新 npm 版；changelog 持续 patch（WSL2 滚轮、Tool(param:value) 权限语法、sandbox glo…"
+        },
+        {
+          "id": "cursor",
+          "name": "Cursor",
+          "icon": "svgs/cursor.svg",
+          "one_liner": "3.7（6/17） 重磅：云环境 10 分钟快照、/in-cloud 云子代理、/babysit PR 看护与本地/云端会话 handoff。"
+        },
+        {
+          "id": "codex",
+          "name": "OpenAI Codex",
+          "icon": "svgs/codex.svg",
+          "one_liner": "CLI 稳定版 0.140.0；GitHub 于 6/17 连发 0.141.0-alpha.4~6 三条 alpha"
+        }
+      ],
+      "china_summary": "智谱 GLM-5.2 编程榜全球第二（6/16 量子位）；DeepSeek Harness 招聘持续、官方编程 Agent 仍未发布；头部 IDE 厂商今日无新版本。",
+      "media_lens": {
+        "consensus": "开发者角色从写代码转向设计循环系统与验收标准",
+        "divergence": "36氪/虎嗅强调 Loop 工程组织变革，量子位聚焦 GLM-5.2 与 ALE 基准模型军备竞赛。"
+      }
+    },
     {
       "date": "2026-06-16",
       "path": "summaries/2026-06-16",
