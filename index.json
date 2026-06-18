@@ -1,8 +1,47 @@
 {
-  "generated_at": "2026-06-16T22:04:53.794Z",
-  "trigger_at": "2026-06-16T22:00:27Z",
-  "latest_date": "2026-06-16",
+  "generated_at": "2026-06-18T22:12:31.652Z",
+  "trigger_at": "2026-06-18T22:02:47Z",
+  "latest_date": "2026-06-18",
   "summaries": [
+    {
+      "date": "2026-06-18",
+      "path": "summaries/2026-06-18",
+      "headline": "2.1.181 patch：新增 /config key=value 即…；6/18 Changelog：Automations 引入 /autom…；CLI 稳定版升至 0.141.0（6/18）",
+      "files": {
+        "readme": "summaries/2026-06-18/README.md",
+        "industry": "summaries/2026-06-18/industry.md",
+        "china_media": "summaries/2026-06-18/china-media.md",
+        "china_ai": "summaries/2026-06-18/china-ai.md",
+        "claude_code": "summaries/2026-06-18/claude-code.md",
+        "cursor": "summaries/2026-06-18/cursor.md",
+        "codex": "summaries/2026-06-18/codex.md"
+      },
+      "tools": [
+        {
+          "id": "claude-code",
+          "name": "Claude Code",
+          "icon": "svgs/claude-code.svg",
+          "one_liner": "2.1.181 patch：新增 /config key=value 即时改设置、Bun 1.4 运行时、流式/Subagent 面板与 WSL2 滚轮修复"
+        },
+        {
+          "id": "cursor",
+          "name": "Cursor",
+          "icon": "svgs/cursor.svg",
+          "one_liner": "6/18 Changelog：Automations 引入 /automate skill、Slack emoji 触发、5 项 GitHub 新 trigge…"
+        },
+        {
+          "id": "codex",
+          "name": "OpenAI Codex",
+          "icon": "svgs/codex.svg",
+          "one_liner": "CLI 稳定版升至 0.141.0（6/18）；App 26.616 新增 Record & Replay（macOS，EEA 除外）与自动化运行历史批量操作。"
+        }
+      ],
+      "china_summary": "智谱 GLM-5.2 6/17 MIT 全量开源，Code Arena 开源第一；DeepSeek Harness 招聘持续，官方 Code Agent 仍未发布。",
+      "media_lens": {
+        "consensus": "AI 编程竞争焦点从提示词转向 Loop/Harness 系统工程",
+        "divergence": "36氪强调组织角色重构，量子位聚焦 GLM-5.2 与 Fable 5 模型军备。"
+      }
+    },
     {
       "date": "2026-06-16",
       "path": "summaries/2026-06-16",
