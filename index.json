@@ -1,8 +1,47 @@
 {
-  "generated_at": "2026-06-18T22:12:31.652Z",
-  "trigger_at": "2026-06-18T22:02:47Z",
-  "latest_date": "2026-06-18",
+  "generated_at": "2026-06-19T22:11:47.030Z",
+  "trigger_at": "2026-06-19T22:03:05Z",
+  "latest_date": "2026-06-19",
   "summaries": [
+    {
+      "date": "2026-06-19",
+      "path": "summaries/2026-06-19",
+      "headline": "2.1.183 patch（较 6/18 的 2.1.181 +2）：a…；3.8（6/18） 进入消化期：Automations 新增 /auto…；稳定版仍为 0.141.0",
+      "files": {
+        "readme": "summaries/2026-06-19/README.md",
+        "industry": "summaries/2026-06-19/industry.md",
+        "china_media": "summaries/2026-06-19/china-media.md",
+        "china_ai": "summaries/2026-06-19/china-ai.md",
+        "claude_code": "summaries/2026-06-19/claude-code.md",
+        "cursor": "summaries/2026-06-19/cursor.md",
+        "codex": "summaries/2026-06-19/codex.md"
+      },
+      "tools": [
+        {
+          "id": "claude-code",
+          "name": "Claude Code",
+          "icon": "svgs/claude-code.svg",
+          "one_liner": "2.1.183 patch（较 6/18 的 2.1.181 +2）：auto mode 破坏性 git 拦截、/config key=value、Bun 1.…"
+        },
+        {
+          "id": "cursor",
+          "name": "Cursor",
+          "icon": "svgs/cursor.svg",
+          "one_liner": "3.8（6/18） 进入消化期：Automations 新增 /automate skill、Slack emoji 触发、5 项 GitHub trigger…"
+        },
+        {
+          "id": "codex",
+          "name": "OpenAI Codex",
+          "icon": "svgs/codex.svg",
+          "one_liner": "稳定版仍为 0.141.0；6/19 GitHub 连发 0.142.0-alpha.3–alpha.6 预发布，稳定通道尚未切换。"
+        }
+      ],
+      "china_summary": "智谱 GLM-5.2 开源热度延续；腾讯 WorkBuddy 企业版（6/5）与快手 RCA Agent（QCon 6 月）代表「企业 Agent 下半场」；DeepSeek 官方 Code Agent 仍缺位。",
+      "media_lens": {
+        "consensus": "2026 年 Coding Agent 竞争焦点已从 Prompt 转向 Harness / Context Engineering",
+        "divergence": "垂直媒体强调 ALE「真场景」颠覆 SWE-Bench，商业媒体更关注 Automations 对企业研发流程的改造。"
+      }
+    },
     {
       "date": "2026-06-18",
       "path": "summaries/2026-06-18",
