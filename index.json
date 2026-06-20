@@ -1,8 +1,47 @@
 {
-  "generated_at": "2026-06-19T22:11:47.030Z",
-  "trigger_at": "2026-06-19T22:03:05Z",
-  "latest_date": "2026-06-19",
+  "generated_at": "2026-06-20T22:08:24.166Z",
+  "trigger_at": "2026-06-20T22:03:02Z",
+  "latest_date": "2026-06-20",
   "summaries": [
+    {
+      "date": "2026-06-20",
+      "path": "summaries/2026-06-20",
+      "headline": "2.1.185 patch（较 6/19 的 2.1.183 +2）：a…；3.8（6/18） 消化期延续：Automations /automat…；稳定版 0.141.0 不变",
+      "files": {
+        "readme": "summaries/2026-06-20/README.md",
+        "industry": "summaries/2026-06-20/industry.md",
+        "china_media": "summaries/2026-06-20/china-media.md",
+        "china_ai": "summaries/2026-06-20/china-ai.md",
+        "claude_code": "summaries/2026-06-20/claude-code.md",
+        "cursor": "summaries/2026-06-20/cursor.md",
+        "codex": "summaries/2026-06-20/codex.md"
+      },
+      "tools": [
+        {
+          "id": "claude-code",
+          "name": "Claude Code",
+          "icon": "svgs/claude-code.svg",
+          "one_liner": "2.1.185 patch（较 6/19 的 2.1.183 +2）：auto mode 安全拦截、/config key=value、Bun 1.4 持续落地…"
+        },
+        {
+          "id": "cursor",
+          "name": "Cursor",
+          "icon": "svgs/cursor.svg",
+          "one_liner": "3.8（6/18） 消化期延续：Automations /automate、5 项 GitHub trigger、默认 Computer Use 无新 Chan…"
+        },
+        {
+          "id": "codex",
+          "name": "OpenAI Codex",
+          "icon": "svgs/codex.svg",
+          "one_liner": "稳定版 0.141.0 不变；6/20 GitHub 发布 0.142.0-alpha.7 预发布（00:40 UTC），alpha 线累计 7 个 tag。"
+        }
+      ],
+      "china_summary": "微软 6/30 内部停用 Claude Code 进入倒计时；DeepSeek Harness 招聘持续；智谱 GLM-5.2 开源编程热度延续。",
+      "media_lens": {
+        "consensus": "2026 年竞争焦点是 Harness + Loop Engineering，非单纯模型跑分",
+        "divergence": "垂直媒体强调 Fable 5 真场景成本/ALE 排名，商业媒体聚焦微软「关对手入口、留模型 API」的平台博弈。"
+      }
+    },
     {
       "date": "2026-06-19",
       "path": "summaries/2026-06-19",
