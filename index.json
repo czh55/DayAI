@@ -1,8 +1,47 @@
 {
-  "generated_at": "2026-06-20T22:08:24.166Z",
-  "trigger_at": "2026-06-20T22:03:02Z",
-  "latest_date": "2026-06-20",
+  "generated_at": "2026-06-21T22:09:43.190Z",
+  "trigger_at": "2026-06-21T22:00:57Z",
+  "latest_date": "2026-06-21",
   "summaries": [
+    {
+      "date": "2026-06-21",
+      "path": "summaries/2026-06-21",
+      "headline": "2.1.185 版本不变；3.8（6/18） 消化期延续：Automations /automat…；npm 稳定版 0.141.0 不变",
+      "files": {
+        "readme": "summaries/2026-06-21/README.md",
+        "industry": "summaries/2026-06-21/industry.md",
+        "china_media": "summaries/2026-06-21/china-media.md",
+        "china_ai": "summaries/2026-06-21/china-ai.md",
+        "claude_code": "summaries/2026-06-21/claude-code.md",
+        "cursor": "summaries/2026-06-21/cursor.md",
+        "codex": "summaries/2026-06-21/codex.md"
+      },
+      "tools": [
+        {
+          "id": "claude-code",
+          "name": "Claude Code",
+          "icon": "svgs/claude-code.svg",
+          "one_liner": "2.1.185 版本不变；Fable 5 订阅免费窗口仅剩最后 1 天（6/22 UTC 截止），6/23 起需 usage credits。"
+        },
+        {
+          "id": "cursor",
+          "name": "Cursor",
+          "icon": "svgs/cursor.svg",
+          "one_liner": "3.8（6/18） 消化期延续：Automations /automate、GitHub 5 项 trigger、Computer Use 默认开启"
+        },
+        {
+          "id": "codex",
+          "name": "OpenAI Codex",
+          "icon": "svgs/codex.svg",
+          "one_liner": "npm 稳定版 0.141.0 不变；6/21 单日 GitHub 连发 3 个 alpha 预发布（alpha.8/9/10）"
+        }
+      ],
+      "china_summary": "智谱 GLM-5.2 开源编程热度延续；DeepSeek Harness 招聘持续；国内厂商今日无重大版本发布。",
+      "media_lens": {
+        "consensus": "2026 竞争焦点是 Loop Engineering + Harness，非单纯模型跑分",
+        "divergence": "量子位强调 ALE 真场景成本/排名，虎嗅/36氪更关注 Agent Control Plane 与平台博弈叙事。"
+      }
+    },
     {
       "date": "2026-06-20",
       "path": "summaries/2026-06-20",
