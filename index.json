@@ -1,8 +1,47 @@
 {
-  "generated_at": "2026-06-20T22:08:24.166Z",
-  "trigger_at": "2026-06-20T22:03:02Z",
-  "latest_date": "2026-06-20",
+  "generated_at": "2026-06-22T22:06:00.546Z",
+  "trigger_at": "2026-06-22T22:00:57Z",
+  "latest_date": "2026-06-22",
   "summaries": [
+    {
+      "date": "2026-06-22",
+      "path": "summaries/2026-06-22",
+      "headline": "2.1.186（+1 patch）：维护迭代延续 auto mode 安…；3.8（6/18） 消化期无新 Changelog；稳定版 0.141.0 不变",
+      "files": {
+        "readme": "summaries/2026-06-22/README.md",
+        "industry": "summaries/2026-06-22/industry.md",
+        "china_media": "summaries/2026-06-22/china-media.md",
+        "china_ai": "summaries/2026-06-22/china-ai.md",
+        "claude_code": "summaries/2026-06-22/claude-code.md",
+        "cursor": "summaries/2026-06-22/cursor.md",
+        "codex": "summaries/2026-06-22/codex.md"
+      },
+      "tools": [
+        {
+          "id": "claude-code",
+          "name": "Claude Code",
+          "icon": "svgs/claude-code.svg",
+          "one_liner": "2.1.186（+1 patch）：维护迭代延续 auto mode 安全、/config key=value、MCP CLI 登录"
+        },
+        {
+          "id": "cursor",
+          "name": "Cursor",
+          "icon": "svgs/cursor.svg",
+          "one_liner": "3.8（6/18） 消化期无新 Changelog；SpaceX 600 亿美元收购（6/16 SEC 备案）与 Automations Computer Us…"
+        },
+        {
+          "id": "codex",
+          "name": "OpenAI Codex",
+          "icon": "svgs/codex.svg",
+          "one_liner": "稳定版 0.141.0 不变；6/22 GitHub 发布 0.142.0-alpha.12（21:16 UTC）"
+        }
+      ],
+      "china_summary": "智谱 GLM-5.2 开源编程热度延续；DeepSeek Harness 招聘持续；微软 6/30 Claude Code 内部关停进入 8 天倒计时。",
+      "media_lens": {
+        "consensus": "Loop Engineering / Harness 三件套取代 Prompt 工程",
+        "divergence": "量子位强调 ALE 排名与 GLM-5.2 开源逆袭，36氪/InfoQ 聚焦 SpaceX 收购 Cursor 与 Fable 5 credits 定价冲击。"
+      }
+    },
     {
       "date": "2026-06-20",
       "path": "summaries/2026-06-20",
