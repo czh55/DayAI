@@ -1,8 +1,47 @@
 {
-  "generated_at": "2026-06-20T22:08:24.166Z",
-  "trigger_at": "2026-06-20T22:03:02Z",
-  "latest_date": "2026-06-20",
+  "generated_at": "2026-06-23T22:06:19.260Z",
+  "trigger_at": "2026-06-23T22:03:24Z",
+  "latest_date": "2026-06-23",
   "summaries": [
+    {
+      "date": "2026-06-23",
+      "path": "summaries/2026-06-23",
+      "headline": "2.1.187（较 6/20 的 2.1.185 +2 patch）：6…；3.8（6/22） 第二波更新：统一 Customize 页管理 plu…；稳定版升至 0.142.0（6/22 发布）",
+      "files": {
+        "readme": "summaries/2026-06-23/README.md",
+        "industry": "summaries/2026-06-23/industry.md",
+        "china_media": "summaries/2026-06-23/china-media.md",
+        "china_ai": "summaries/2026-06-23/china-ai.md",
+        "claude_code": "summaries/2026-06-23/claude-code.md",
+        "cursor": "summaries/2026-06-23/cursor.md",
+        "codex": "summaries/2026-06-23/codex.md"
+      },
+      "tools": [
+        {
+          "id": "claude-code",
+          "name": "Claude Code",
+          "icon": "svgs/claude-code.svg",
+          "one_liner": "2.1.187（较 6/20 的 2.1.185 +2 patch）：6/22 发布 2.1.186 含 CLI 级 claude mcp login/logo…"
+        },
+        {
+          "id": "cursor",
+          "name": "Cursor",
+          "icon": "svgs/cursor.svg",
+          "one_liner": "3.8（6/22） 第二波更新：统一 Customize 页管理 plugins/skills/MCP、Marketplace leaderboard、Plug…"
+        },
+        {
+          "id": "codex",
+          "name": "OpenAI Codex",
+          "icon": "svgs/codex.svg",
+          "one_liner": "稳定版升至 0.142.0（6/22 发布）；/usage credits 兑换、/plugins 分区推荐、rollout token 预算、indexed …"
+        }
+      ],
+      "china_summary": "媒体聚焦 Fable 5 窗口切换日与 微软 6/30 Claude Code 迁移倒计时；智谱 GLM-5.2、DeepSeek Harness 招聘热度延续，今日各厂商无重大版本发布。",
+      "media_lens": {
+        "consensus": "2026 年 AI 编程竞争从模型跑分转向 Harness + Loop Engineering 系统能力",
+        "divergence": "量子位/36氪强调 Fable 5 真场景成本与出口管制余波，InfoQ 更关注 Loop/Harness 范式与多模型路由策略。"
+      }
+    },
     {
       "date": "2026-06-20",
       "path": "summaries/2026-06-20",
