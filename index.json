@@ -1,8 +1,47 @@
 {
-  "generated_at": "2026-06-23T22:06:19.260Z",
-  "trigger_at": "2026-06-23T22:03:24Z",
-  "latest_date": "2026-06-23",
+  "generated_at": "2026-06-24T22:06:09.771Z",
+  "trigger_at": "2026-06-24T22:02:07Z",
+  "latest_date": "2026-06-24",
   "summaries": [
+    {
+      "date": "2026-06-24",
+      "path": "summaries/2026-06-24",
+      "headline": "2.1.191（npm @latest；3.9（6/22） 无 6/24 新 Changelog；稳定版 0.142.0 未变",
+      "files": {
+        "readme": "summaries/2026-06-24/README.md",
+        "industry": "summaries/2026-06-24/industry.md",
+        "china_media": "summaries/2026-06-24/china-media.md",
+        "china_ai": "summaries/2026-06-24/china-ai.md",
+        "claude_code": "summaries/2026-06-24/claude-code.md",
+        "cursor": "summaries/2026-06-24/cursor.md",
+        "codex": "summaries/2026-06-24/codex.md"
+      },
+      "tools": [
+        {
+          "id": "claude-code",
+          "name": "Claude Code",
+          "icon": "svgs/claude-code.svg",
+          "one_liner": "2.1.191（npm @latest；Changelog 2.1.190 @ 6/24 维护 patch）：同日 Anthropic 发布 Claude Ta…"
+        },
+        {
+          "id": "cursor",
+          "name": "Cursor",
+          "icon": "svgs/cursor.svg",
+          "one_liner": "3.9（6/22） 无 6/24 新 Changelog；Customize 页 + Marketplace leaderboard 仍是本周主线"
+        },
+        {
+          "id": "codex",
+          "name": "OpenAI Codex",
+          "icon": "svgs/codex.svg",
+          "one_liner": "稳定版 0.142.0 未变；0.143.0-alpha.15（6/24 19:41Z）等 alpha 线当日密集预发布 3 版"
+        }
+      ],
+      "china_summary": "媒体集中解读 Claude Tag 与卡帕西「LLM UI 第三次变革」；字节 Seed 2.1（6/23 前后）Agent 长程编程热度延续；各主流厂商今日无重大版本发布。",
+      "media_lens": {
+        "consensus": "2026 年 AI 编程竞争从单点代码生成转向「嵌入式队友 + Harness 长程任务」",
+        "divergence": "量子位/36氪强调 Claude Tag 安全叙事与 65% 内部代码占比，虎嗅/InfoQ 更关注微软工具链收敛与多模型路由成本。"
+      }
+    },
     {
       "date": "2026-06-23",
       "path": "summaries/2026-06-23",
