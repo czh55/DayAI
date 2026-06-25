@@ -1,8 +1,47 @@
 {
-  "generated_at": "2026-06-24T22:06:09.771Z",
-  "trigger_at": "2026-06-24T22:02:07Z",
-  "latest_date": "2026-06-24",
+  "generated_at": "2026-06-25T22:06:15.623Z",
+  "trigger_at": "2026-06-25T22:02:49Z",
+  "latest_date": "2026-06-25",
   "summaries": [
+    {
+      "date": "2026-06-25",
+      "path": "summaries/2026-06-25",
+      "headline": "2.1.193（npm @latest；3.9（6/22） 无 6/25 新 Changelog；稳定版跃升至 0.142.2（6/25 07:32Z）：MCP tool…",
+      "files": {
+        "readme": "summaries/2026-06-25/README.md",
+        "industry": "summaries/2026-06-25/industry.md",
+        "china_media": "summaries/2026-06-25/china-media.md",
+        "china_ai": "summaries/2026-06-25/china-ai.md",
+        "claude_code": "summaries/2026-06-25/claude-code.md",
+        "cursor": "summaries/2026-06-25/cursor.md",
+        "codex": "summaries/2026-06-25/codex.md"
+      },
+      "tools": [
+        {
+          "id": "claude-code",
+          "name": "Claude Code",
+          "icon": "svgs/claude-code.svg",
+          "one_liner": "2.1.193（npm @latest；Changelog 维护 patch 线延续）：/rewind 恢复 /clear 前对话、MCP login/logo…"
+        },
+        {
+          "id": "cursor",
+          "name": "Cursor",
+          "icon": "svgs/cursor.svg",
+          "one_liner": "3.9（6/22） 无 6/25 新 Changelog；Customize 页 + Automations cron 触发（本任务即实例）仍是本周主线"
+        },
+        {
+          "id": "codex",
+          "name": "OpenAI Codex",
+          "icon": "svgs/codex.svg",
+          "one_liner": "稳定版跃升至 0.142.2（6/25 07:32Z）：MCP tool search 默认启用、插件 dark-mode logo、macOS 系统代理"
+        }
+      ],
+      "china_summary": "媒体 6/25 转向「AI 编程孤独感」社会叙事（Fiona Fung 访谈）；DeepSeek Harness 招聘与字节 Seed 2.1 长程 Agent 无今日新版本；各主流厂商今日无重大发布。",
+      "media_lens": {
+        "consensus": "AI 编程从「提效工具」进入「组织协作 + 人机关系」反思期",
+        "divergence": "36氪/新智元强调 Claude 80% 代码合并的孤独副作用，虎嗅/InfoQ 更关注 Codex 分发层与 Harness 工程范式。"
+      }
+    },
     {
       "date": "2026-06-24",
       "path": "summaries/2026-06-24",
