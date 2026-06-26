@@ -1,8 +1,47 @@
 {
-  "generated_at": "2026-06-25T22:06:15.623Z",
-  "trigger_at": "2026-06-25T22:02:49Z",
-  "latest_date": "2026-06-25",
+  "generated_at": "2026-06-26T22:07:20.396Z",
+  "trigger_at": "2026-06-26T22:00:14Z",
+  "latest_date": "2026-06-26",
   "summaries": [
+    {
+      "date": "2026-06-26",
+      "path": "summaries/2026-06-26",
+      "headline": "2.1.195（npm @latest；3.9（6/22） 无 6/26 新 Changelog；稳定版 0.142.3（6/26 21:29Z）：纯维护 patch",
+      "files": {
+        "readme": "summaries/2026-06-26/README.md",
+        "industry": "summaries/2026-06-26/industry.md",
+        "china_media": "summaries/2026-06-26/china-media.md",
+        "china_ai": "summaries/2026-06-26/china-ai.md",
+        "claude_code": "summaries/2026-06-26/claude-code.md",
+        "cursor": "summaries/2026-06-26/cursor.md",
+        "codex": "summaries/2026-06-26/codex.md"
+      },
+      "tools": [
+        {
+          "id": "claude-code",
+          "name": "Claude Code",
+          "icon": "svgs/claude-code.svg",
+          "one_liner": "2.1.195（npm @latest，较昨日 +2 patch）：Changelog 维护线延续"
+        },
+        {
+          "id": "cursor",
+          "name": "Cursor",
+          "icon": "svgs/cursor.svg",
+          "one_liner": "3.9（6/22） 无 6/26 新 Changelog；Customize 页 + Automations cron 触发（本任务即实例）仍是本周主线"
+        },
+        {
+          "id": "codex",
+          "name": "OpenAI Codex",
+          "icon": "svgs/codex.svg",
+          "one_liner": "稳定版 0.142.3（6/26 21:29Z）：纯维护 patch，自 0.142.2 无用户可见变更；0.143.0-alpha.26 预发布继续"
+        }
+      ],
+      "china_summary": "DeepSeek 完成约 510 亿元首轮融资后启动史上最大规模招聘（7 大类 33 岗位，含 Agent Harness）；阿里 Qwen-AgentWorld（6/24）仍被 36氪/量子位引用；各主流编程产品今日无新版本。",
+      "media_lens": {
+        "consensus": "AI 编程从 Loop 走向 RTS / Agent Control Plane，开发者角色转向「任务系统设计」",
+        "divergence": "36氪/凤凰网聚焦 DeepSeek 融资后扩招的组织挑战，虎嗅/InfoQ 更强调 Loop 成本与可观测性瓶颈。"
+      }
+    },
     {
       "date": "2026-06-25",
       "path": "summaries/2026-06-25",
