@@ -1,8 +1,47 @@
 {
-  "generated_at": "2026-06-26T22:07:20.396Z",
-  "trigger_at": "2026-06-26T22:00:14Z",
-  "latest_date": "2026-06-26",
+  "generated_at": "2026-06-27T22:07:33.092Z",
+  "trigger_at": "2026-06-27T22:01:50Z",
+  "latest_date": "2026-06-27",
   "summaries": [
+    {
+      "date": "2026-06-27",
+      "path": "summaries/2026-06-27",
+      "headline": "2.1.195（npm @latest 无变化）：Changelog 维…；3.9（6/22） 无 6/27 新 Changelog；稳定版 0.142.3 无变化",
+      "files": {
+        "readme": "summaries/2026-06-27/README.md",
+        "industry": "summaries/2026-06-27/industry.md",
+        "china_media": "summaries/2026-06-27/china-media.md",
+        "china_ai": "summaries/2026-06-27/china-ai.md",
+        "claude_code": "summaries/2026-06-27/claude-code.md",
+        "cursor": "summaries/2026-06-27/cursor.md",
+        "codex": "summaries/2026-06-27/codex.md"
+      },
+      "tools": [
+        {
+          "id": "claude-code",
+          "name": "Claude Code",
+          "icon": "svgs/claude-code.svg",
+          "one_liner": "2.1.195（npm @latest 无变化）：Changelog 维护线延续；Anthropic 6/27 无新产品发布"
+        },
+        {
+          "id": "cursor",
+          "name": "Cursor",
+          "icon": "svgs/cursor.svg",
+          "one_liner": "3.9（6/22） 无 6/27 新 Changelog；Customize 页 + Automations cron（本任务即实例）仍是本周主线"
+        },
+        {
+          "id": "codex",
+          "name": "OpenAI Codex",
+          "icon": "svgs/codex.svg",
+          "one_liner": "稳定版 0.142.3 无变化；0.143.0-alpha.27/28 今日预发布（18:35Z / 20:15Z）；Remote GA（6/25）余波持续。"
+        }
+      ],
+      "china_summary": "DeepSeek 扩招余波（36氪 6/26 解读组织挑战）；智谱 GLM-5.2 开源编程能力被媒体引用为「Fable 5 之下全球第二」；阿里 Qwen-AgentWorld（6/24）仍最新。",
+      "media_lens": {
+        "consensus": "AI 编程从 Loop 走向 RTS / Agent Control Plane，开发者角色转向「任务系统设计」",
+        "divergence": "量子位聚焦模型榜单（GLM-5.2 / ALE），虎嗅/InfoQ 更强调 Loop Token 成本 3–8 倍与可观测性瓶颈。"
+      }
+    },
     {
       "date": "2026-06-26",
       "path": "summaries/2026-06-26",
