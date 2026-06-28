@@ -1,8 +1,47 @@
 {
-  "generated_at": "2026-06-27T22:07:33.092Z",
-  "trigger_at": "2026-06-27T22:01:50Z",
-  "latest_date": "2026-06-27",
+  "generated_at": "2026-06-28T22:06:37.188Z",
+  "trigger_at": "2026-06-28T22:00:26Z",
+  "latest_date": "2026-06-28",
   "summaries": [
+    {
+      "date": "2026-06-28",
+      "path": "summaries/2026-06-28",
+      "headline": "2.1.195（npm @latest 无变化）：Changelog 维…；3.9（6/22） 无 6/28 新 Changelog；稳定版 0.142.3 无变化",
+      "files": {
+        "readme": "summaries/2026-06-28/README.md",
+        "industry": "summaries/2026-06-28/industry.md",
+        "china_media": "summaries/2026-06-28/china-media.md",
+        "china_ai": "summaries/2026-06-28/china-ai.md",
+        "claude_code": "summaries/2026-06-28/claude-code.md",
+        "cursor": "summaries/2026-06-28/cursor.md",
+        "codex": "summaries/2026-06-28/codex.md"
+      },
+      "tools": [
+        {
+          "id": "claude-code",
+          "name": "Claude Code",
+          "icon": "svgs/claude-code.svg",
+          "one_liner": "2.1.195（npm @latest 无变化）：Changelog 维护线延续；微软 E+D 迁移 Copilot CLI 剩 2 天（6/30 截止）。"
+        },
+        {
+          "id": "cursor",
+          "name": "Cursor",
+          "icon": "svgs/cursor.svg",
+          "one_liner": "3.9（6/22） 无 6/28 新 Changelog；本自动化任务即 Automations cron 实例"
+        },
+        {
+          "id": "codex",
+          "name": "OpenAI Codex",
+          "icon": "svgs/codex.svg",
+          "one_liner": "稳定版 0.142.3 无变化；0.143.0-alpha.29 今日 00:30Z 预发布；Remote GA（6/25）余波持续。"
+        }
+      ],
+      "china_summary": "AICon 上海（6/26–27）Harness / 可验收闭环成共识；DeepSeek Harness 对标 Claude Code 叙事延续；天工 3.1 Dynamic Workflows 国内同步。",
+      "media_lens": {
+        "consensus": "AI 编程从 Prompt",
+        "divergence": "量子位/36氪聚焦 DeepSeek Harness 与模型能力竞赛；虎嗅/InfoQ 更强调 Loop Token 成本与 Harness 厚度之争"
+      }
+    },
     {
       "date": "2026-06-27",
       "path": "summaries/2026-06-27",
