@@ -1,8 +1,47 @@
 {
-  "generated_at": "2026-06-28T22:06:37.188Z",
-  "trigger_at": "2026-06-28T22:00:26Z",
-  "latest_date": "2026-06-28",
+  "generated_at": "2026-06-29T22:04:18.384Z",
+  "trigger_at": "2026-06-29T22:00:55Z",
+  "latest_date": "2026-06-29",
   "summaries": [
+    {
+      "date": "2026-06-29",
+      "path": "summaries/2026-06-29",
+      "headline": "2.1.195（npm @latest 无变化）：Changelog 维…；6/29 新 Changelog：Cursor for iOS 公测上线…；稳定版 0.142.4（今日 05:04Z 新发布",
+      "files": {
+        "readme": "summaries/2026-06-29/README.md",
+        "industry": "summaries/2026-06-29/industry.md",
+        "china_media": "summaries/2026-06-29/china-media.md",
+        "china_ai": "summaries/2026-06-29/china-ai.md",
+        "claude_code": "summaries/2026-06-29/claude-code.md",
+        "cursor": "summaries/2026-06-29/cursor.md",
+        "codex": "summaries/2026-06-29/codex.md"
+      },
+      "tools": [
+        {
+          "id": "claude-code",
+          "name": "Claude Code",
+          "icon": "svgs/claude-code.svg",
+          "one_liner": "2.1.195（npm @latest 无变化）：Changelog 维护线延续；微软 E+D 迁移 Copilot CLI 剩最后 1 天（6/30 截止）。"
+        },
+        {
+          "id": "cursor",
+          "name": "Cursor",
+          "icon": "svgs/cursor.svg",
+          "one_liner": "6/29 新 Changelog：Cursor for iOS 公测上线，付费用户可移动端启动 Cloud Agent、Remote Control、Live …"
+        },
+        {
+          "id": "codex",
+          "name": "OpenAI Codex",
+          "icon": "svgs/codex.svg",
+          "one_liner": "稳定版 0.142.4（今日 05:04Z 新发布，maintenance-only）；alpha.29 仍最新预发布。"
+        }
+      ],
+      "china_summary": "量子位报道 GLM-5.2 开源编程全球第二、ALE「智能体终极考试」基准引发讨论；GPT-5.6 预览（6/27）余波持续。",
+      "media_lens": {
+        "consensus": "AI 编程从 Prompt",
+        "divergence": "量子位/36氪聚焦 ALE 基准、GLM-5.2 编程排名与 GPT-5.6 能力竞赛；虎嗅/InfoQ 更强调 Loop Token 成本与 Harness 厚度之争"
+      }
+    },
     {
       "date": "2026-06-28",
       "path": "summaries/2026-06-28",
