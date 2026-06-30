@@ -1,8 +1,47 @@
 {
-  "generated_at": "2026-06-29T22:04:18.384Z",
-  "trigger_at": "2026-06-29T22:00:55Z",
-  "latest_date": "2026-06-29",
+  "generated_at": "2026-06-30T22:04:34.859Z",
+  "trigger_at": "2026-06-30T22:01:18Z",
+  "latest_date": "2026-06-30",
   "summaries": [
+    {
+      "date": "2026-06-30",
+      "path": "summaries/2026-06-30",
+      "headline": "2.1.197 今日升级：默认模型切换为 Claude Sonnet 5…；6/30 无新 Changelog；稳定版 0.142.4（npm 无变）",
+      "files": {
+        "readme": "summaries/2026-06-30/README.md",
+        "industry": "summaries/2026-06-30/industry.md",
+        "china_media": "summaries/2026-06-30/china-media.md",
+        "china_ai": "summaries/2026-06-30/china-ai.md",
+        "claude_code": "summaries/2026-06-30/claude-code.md",
+        "cursor": "summaries/2026-06-30/cursor.md",
+        "codex": "summaries/2026-06-30/codex.md"
+      },
+      "tools": [
+        {
+          "id": "claude-code",
+          "name": "Claude Code",
+          "icon": "svgs/claude-code.svg",
+          "one_liner": "2.1.197 今日升级：默认模型切换为 Claude Sonnet 5（1M 上下文，促销价 $2/$10 per Mtok 至 8/31）"
+        },
+        {
+          "id": "cursor",
+          "name": "Cursor",
+          "icon": "svgs/cursor.svg",
+          "one_liner": "6/30 无新 Changelog；6/29 Cursor for iOS 公测余波延续"
+        },
+        {
+          "id": "codex",
+          "name": "OpenAI Codex",
+          "icon": "svgs/codex.svg",
+          "one_liner": "稳定版 0.142.4（npm 无变）；预发布线升至 0.143.0-alpha.31（6/29 23:21Z）；GPT-5.6 预览与 ALE 基准讨论持续。"
+        }
+      ],
+      "china_summary": "量子位/36氪聚焦 Sonnet 5 与 Fable 5 解禁余波、GLM-5.2 开源编程叙事；DeepSeek Harness 对标 Claude Code 招聘延续。",
+      "media_lens": {
+        "consensus": "中端 Agent 模型（Sonnet 5）将拉低高质量编程 Agent 门槛",
+        "divergence": "虎嗅质疑 Fable 5 安全护栏与隐性降级，量子位/36氪更聚焦能力竞赛与 Sonnet 5「性价比王牌」叙事。"
+      }
+    },
     {
       "date": "2026-06-29",
       "path": "summaries/2026-06-29",
