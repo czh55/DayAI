@@ -1,8 +1,47 @@
 {
-  "generated_at": "2026-06-30T22:04:34.859Z",
-  "trigger_at": "2026-06-30T22:01:18Z",
-  "latest_date": "2026-06-30",
+  "generated_at": "2026-07-01T22:04:37.228Z",
+  "trigger_at": "2026-07-01T22:01:07Z",
+  "latest_date": "2026-07-01",
   "summaries": [
+    {
+      "date": "2026-07-01",
+      "path": "summaries/2026-07-01",
+      "headline": "2.1.198 今日 patch（npm @ 16:50Z）；6/30 新 Changelog：Team MCP 进团队市场 + 组织…；稳定版升至 0.142.5（7/1 01:15Z",
+      "files": {
+        "readme": "summaries/2026-07-01/README.md",
+        "industry": "summaries/2026-07-01/industry.md",
+        "china_media": "summaries/2026-07-01/china-media.md",
+        "china_ai": "summaries/2026-07-01/china-ai.md",
+        "claude_code": "summaries/2026-07-01/claude-code.md",
+        "cursor": "summaries/2026-07-01/cursor.md",
+        "codex": "summaries/2026-07-01/codex.md"
+      },
+      "tools": [
+        {
+          "id": "claude-code",
+          "name": "Claude Code",
+          "icon": "svgs/claude-code.svg",
+          "one_liner": "2.1.198 今日 patch（npm @ 16:50Z）；Fable 5 全球恢复（7/1 官方确认）；Sonnet 5 仍为默认模型。"
+        },
+        {
+          "id": "cursor",
+          "name": "Cursor",
+          "icon": "svgs/cursor.svg",
+          "one_liner": "6/30 新 Changelog：Team MCP 进团队市场 + 组织组（organization groups） 访问控制；6/29 iOS 公测余波延续。"
+        },
+        {
+          "id": "codex",
+          "name": "OpenAI Codex",
+          "icon": "svgs/codex.svg",
+          "one_liner": "稳定版升至 0.142.5（7/1 01:15Z，WebSocket trace 日志修复）；alpha 0.143.0-alpha.32 同步发布。"
+        }
+      ],
+      "china_summary": "36氪/量子位聚焦 Sonnet 5 性价比与 Token 隐性成本；字节 豆包 2.1 Pro（6/23）Coding Plan 兼容 Claude Code/Cursor 叙事延续。",
+      "media_lens": {
+        "consensus": "Sonnet 5 拉低多 Agent 并行成本门槛",
+        "divergence": "量子位质疑新分词器致实际账单高于 Opus，36氪更强调「打工版 Claude 5」普惠叙事。"
+      }
+    },
     {
       "date": "2026-06-30",
       "path": "summaries/2026-06-30",
