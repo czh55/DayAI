@@ -1,8 +1,47 @@
 {
-  "generated_at": "2026-07-01T22:04:37.228Z",
-  "trigger_at": "2026-07-01T22:01:07Z",
-  "latest_date": "2026-07-01",
+  "generated_at": "2026-07-02T22:04:53.313Z",
+  "trigger_at": "2026-07-02T22:01:08Z",
+  "latest_date": "2026-07-02",
   "summaries": [
+    {
+      "date": "2026-07-02",
+      "path": "summaries/2026-07-02",
+      "headline": "2.1.198 无新 patch；6/30 后无新 Changelog；稳定版维持 0.142.5",
+      "files": {
+        "readme": "summaries/2026-07-02/README.md",
+        "industry": "summaries/2026-07-02/industry.md",
+        "china_media": "summaries/2026-07-02/china-media.md",
+        "china_ai": "summaries/2026-07-02/china-ai.md",
+        "claude_code": "summaries/2026-07-02/claude-code.md",
+        "cursor": "summaries/2026-07-02/cursor.md",
+        "codex": "summaries/2026-07-02/codex.md"
+      },
+      "tools": [
+        {
+          "id": "claude-code",
+          "name": "Claude Code",
+          "icon": "svgs/claude-code.svg",
+          "one_liner": "2.1.198 无新 patch；Fable 5 恢复次日社区集中反馈 安全分类器误拦致强制降级 Opus 4.8；Sonnet 5 仍为默认模型。"
+        },
+        {
+          "id": "cursor",
+          "name": "Cursor",
+          "icon": "svgs/cursor.svg",
+          "one_liner": "6/30 后无新 Changelog；Team MCP + organization groups 仍是最新企业能力"
+        },
+        {
+          "id": "codex",
+          "name": "OpenAI Codex",
+          "icon": "svgs/codex.svg",
+          "one_liner": "稳定版维持 0.142.5；预发布线 0.143.0-alpha.33（7/2 01:58Z）与 alpha.34（7/2 21:42Z）同日连发。"
+        }
+      ],
+      "china_summary": "36氪/量子位 7/1–7/2 持续争论 Sonnet 5 隐性 Token 成本 与 Fable 5 降智体验；国内厂商今日均无新版本。",
+      "media_lens": {
+        "consensus": "Agent 编程进入「模型分层 + Harness 治理」常态",
+        "divergence": "36氪称 Fable 5「解禁即翻车」，官方仍强调 99%+ bypass 阻断。"
+      }
+    },
     {
       "date": "2026-07-01",
       "path": "summaries/2026-07-01",
