@@ -1,8 +1,47 @@
 {
-  "generated_at": "2026-07-02T22:04:53.313Z",
-  "trigger_at": "2026-07-02T22:01:08Z",
-  "latest_date": "2026-07-02",
+  "generated_at": "2026-07-03T22:03:18.217Z",
+  "trigger_at": "2026-07-03T22:00:11Z",
+  "latest_date": "2026-07-03",
   "summaries": [
+    {
+      "date": "2026-07-03",
+      "path": "summaries/2026-07-03",
+      "headline": "2.1.200 连发两版 patch：默认权限改为 Manual、Ask…；7/3 仍无新 Changelog（6/30 Team MCP 最新）；稳定版 0.142.5 不变",
+      "files": {
+        "readme": "summaries/2026-07-03/README.md",
+        "industry": "summaries/2026-07-03/industry.md",
+        "china_media": "summaries/2026-07-03/china-media.md",
+        "china_ai": "summaries/2026-07-03/china-ai.md",
+        "claude_code": "summaries/2026-07-03/claude-code.md",
+        "cursor": "summaries/2026-07-03/cursor.md",
+        "codex": "summaries/2026-07-03/codex.md"
+      },
+      "tools": [
+        {
+          "id": "claude-code",
+          "name": "Claude Code",
+          "icon": "svgs/claude-code.svg",
+          "one_liner": "2.1.200 连发两版 patch：默认权限改为 Manual、AskUserQuestion 不再自动继续"
+        },
+        {
+          "id": "cursor",
+          "name": "Cursor",
+          "icon": "svgs/cursor.svg",
+          "one_liner": "7/3 仍无新 Changelog（6/30 Team MCP 最新）；本触发为 Automations cron 第 2 日连续运行。"
+        },
+        {
+          "id": "codex",
+          "name": "OpenAI Codex",
+          "icon": "svgs/codex.svg",
+          "one_liner": "稳定版 0.142.5 不变；预发布 0.143.0-alpha.35 于 7/3 02:33Z 发布（npm 可装）。"
+        }
+      ],
+      "china_summary": "DeepSeek 邮件预告 7 月中旬 API 峰谷定价；豆包专业版三级阶梯价上线；其余厂商今日无新版本。",
+      "media_lens": {
+        "consensus": "Fable 5 恢复进入「治理透明化」阶段",
+        "divergence": "36氪称体验「翻车」，官方用技术文档回应误拦机制。"
+      }
+    },
     {
       "date": "2026-07-02",
       "path": "summaries/2026-07-02",
