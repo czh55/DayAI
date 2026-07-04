@@ -1,8 +1,47 @@
 {
-  "generated_at": "2026-07-03T22:03:18.217Z",
-  "trigger_at": "2026-07-03T22:00:11Z",
-  "latest_date": "2026-07-03",
+  "generated_at": "2026-07-04T22:04:17.292Z",
+  "trigger_at": "2026-07-04T22:00:10Z",
+  "latest_date": "2026-07-04",
   "summaries": [
+    {
+      "date": "2026-07-04",
+      "path": "summaries/2026-07-04",
+      "headline": "2.1.201 patch：修复 Sonnet 5 会话 harness…；7/4 仍无新 Changelog（6/30 Team MCP 最新）；稳定版 0.142.5 不变",
+      "files": {
+        "readme": "summaries/2026-07-04/README.md",
+        "industry": "summaries/2026-07-04/industry.md",
+        "china_media": "summaries/2026-07-04/china-media.md",
+        "china_ai": "summaries/2026-07-04/china-ai.md",
+        "claude_code": "summaries/2026-07-04/claude-code.md",
+        "cursor": "summaries/2026-07-04/cursor.md",
+        "codex": "summaries/2026-07-04/codex.md"
+      },
+      "tools": [
+        {
+          "id": "claude-code",
+          "name": "Claude Code",
+          "icon": "svgs/claude-code.svg",
+          "one_liner": "2.1.201 patch：修复 Sonnet 5 会话 harness reminder 不再使用 mid-conversation system role"
+        },
+        {
+          "id": "cursor",
+          "name": "Cursor",
+          "icon": "svgs/cursor.svg",
+          "one_liner": "7/4 仍无新 Changelog（6/30 Team MCP 最新）；Automations cron 第 3 日连续触发。"
+        },
+        {
+          "id": "codex",
+          "name": "OpenAI Codex",
+          "icon": "svgs/codex.svg",
+          "one_liner": "稳定版 0.142.5 不变；预发布 0.143.0-alpha.35（7/3）仍为最新"
+        }
+      ],
+      "china_summary": "DeepSeek V4 正式版 7 月中旬峰谷定价倒计时；Sonnet 5 分词器暗涨争议持续；其余厂商今日无新版本。",
+      "media_lens": {
+        "consensus": "Sonnet 5「单价不变、Token 变多」需开发者自测账单",
+        "divergence": "官方尝鲜价「成本持平」vs 量子位/Artificial Analysis「实际更贵」。"
+      }
+    },
     {
       "date": "2026-07-03",
       "path": "summaries/2026-07-03",
