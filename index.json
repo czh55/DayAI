@@ -1,8 +1,47 @@
 {
-  "generated_at": "2026-07-04T22:04:17.292Z",
-  "trigger_at": "2026-07-04T22:00:10Z",
-  "latest_date": "2026-07-04",
+  "generated_at": "2026-07-05T22:06:57.381Z",
+  "trigger_at": "2026-07-05T22:02:10Z",
+  "latest_date": "2026-07-05",
   "summaries": [
+    {
+      "date": "2026-07-05",
+      "path": "summaries/2026-07-05",
+      "headline": "npm 2.1.201 维持不变（7/3 发布）；7/5 仍无新 Changelog（6/30 Team MCP 最新）；预发布线更新至 0.143.0-alpha.36（7/5 01:02Z）",
+      "files": {
+        "readme": "summaries/2026-07-05/README.md",
+        "industry": "summaries/2026-07-05/industry.md",
+        "china_media": "summaries/2026-07-05/china-media.md",
+        "china_ai": "summaries/2026-07-05/china-ai.md",
+        "claude_code": "summaries/2026-07-05/claude-code.md",
+        "cursor": "summaries/2026-07-05/cursor.md",
+        "codex": "summaries/2026-07-05/codex.md"
+      },
+      "tools": [
+        {
+          "id": "claude-code",
+          "name": "Claude Code",
+          "icon": "svgs/claude-code.svg",
+          "one_liner": "npm 2.1.201 维持不变（7/3 发布）；Sonnet 5 harness 修复与 Manual 默认权限仍为本周主线，7/5 无新 patch。"
+        },
+        {
+          "id": "cursor",
+          "name": "Cursor",
+          "icon": "svgs/cursor.svg",
+          "one_liner": "7/5 仍无新 Changelog（6/30 Team MCP 最新）；Automations cron 第 4 日连续触发。"
+        },
+        {
+          "id": "codex",
+          "name": "OpenAI Codex",
+          "icon": "svgs/codex.svg",
+          "one_liner": "预发布线更新至 0.143.0-alpha.36（7/5 01:02Z）；稳定版 0.142.5 不变；GPT-5.6 传闻窗口 7/7–9 倒计时 2 天。"
+        }
+      ],
+      "china_summary": "DeepSeek V4 正式版 7 月中旬峰谷定价倒计时；其余 14 家国内厂商今日无公开更新。",
+      "media_lens": {
+        "consensus": "Sonnet 5「标价不变、Token 变多」需开发者自测账单",
+        "divergence": "Anthropic「尝鲜价成本持平」vs 量子位/Artificial Analysis「部分任务比 Opus 更贵」。"
+      }
+    },
     {
       "date": "2026-07-04",
       "path": "summaries/2026-07-04",
