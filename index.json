@@ -1,8 +1,47 @@
 {
-  "generated_at": "2026-07-05T22:06:57.381Z",
-  "trigger_at": "2026-07-05T22:02:10Z",
-  "latest_date": "2026-07-05",
+  "generated_at": "2026-07-06T22:06:18.819Z",
+  "trigger_at": "2026-07-06T22:00:58Z",
+  "latest_date": "2026-07-06",
   "summaries": [
+    {
+      "date": "2026-07-06",
+      "path": "summaries/2026-07-06",
+      "headline": "npm 2.1.201 维持不变（7/3 发布）；7/6 仍无新 Changelog（6/30 Team MCP 最新；预发布线更新至 0.143.0-alpha.37（7/6 18:11Z）",
+      "files": {
+        "readme": "summaries/2026-07-06/README.md",
+        "industry": "summaries/2026-07-06/industry.md",
+        "china_media": "summaries/2026-07-06/china-media.md",
+        "china_ai": "summaries/2026-07-06/china-ai.md",
+        "claude_code": "summaries/2026-07-06/claude-code.md",
+        "cursor": "summaries/2026-07-06/cursor.md",
+        "codex": "summaries/2026-07-06/codex.md"
+      },
+      "tools": [
+        {
+          "id": "claude-code",
+          "name": "Claude Code",
+          "icon": "svgs/claude-code.svg",
+          "one_liner": "npm 2.1.201 维持不变（7/3 发布）；Fable 5 周额度明日（7/7）截止"
+        },
+        {
+          "id": "cursor",
+          "name": "Cursor",
+          "icon": "svgs/cursor.svg",
+          "one_liner": "7/6 仍无新 Changelog（6/30 Team MCP 最新，连续第 5 日空窗）；Automations cron 第 5 日连续触发。"
+        },
+        {
+          "id": "codex",
+          "name": "OpenAI Codex",
+          "icon": "svgs/codex.svg",
+          "one_liner": "预发布线更新至 0.143.0-alpha.37（7/6 18:11Z）；稳定版 0.142.5 不变；GPT-5.6 仍处 limited preview。"
+        }
+      ],
+      "china_summary": "DeepSeek deepseek-chat/reasoner 7/24 停用倒计时 18 天；其余 14 家国内厂商今日无公开更新。",
+      "media_lens": {
+        "consensus": "AI 编程瓶颈从「写代码」转向「验证」",
+        "divergence": "Loop Engineering 是否「杀死提示词工程」vs 仍需精细 Prompt 设计。"
+      }
+    },
     {
       "date": "2026-07-05",
       "path": "summaries/2026-07-05",
