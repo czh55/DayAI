@@ -1,8 +1,47 @@
 {
-  "generated_at": "2026-07-06T22:06:18.819Z",
-  "trigger_at": "2026-07-06T22:00:58Z",
-  "latest_date": "2026-07-06",
+  "generated_at": "2026-07-07T22:06:10.912Z",
+  "trigger_at": "2026-07-07T22:02:52Z",
+  "latest_date": "2026-07-07",
   "summaries": [
+    {
+      "date": "2026-07-07",
+      "path": "summaries/2026-07-07",
+      "headline": "npm 2.1.203 晋升 @latest（7/7 17:40Z）；7/7 仍无新 Changelog（6/30 Team MCP 最新；预发布线更新至 0.143.0-alpha.38（7/7 04:34Z",
+      "files": {
+        "readme": "summaries/2026-07-07/README.md",
+        "industry": "summaries/2026-07-07/industry.md",
+        "china_media": "summaries/2026-07-07/china-media.md",
+        "china_ai": "summaries/2026-07-07/china-ai.md",
+        "claude_code": "summaries/2026-07-07/claude-code.md",
+        "cursor": "summaries/2026-07-07/cursor.md",
+        "codex": "summaries/2026-07-07/codex.md"
+      },
+      "tools": [
+        {
+          "id": "claude-code",
+          "name": "Claude Code",
+          "icon": "svgs/claude-code.svg",
+          "one_liner": "npm 2.1.203 晋升 @latest（7/7 17:40Z）；Fable 5 周额度今日截止"
+        },
+        {
+          "id": "cursor",
+          "name": "Cursor",
+          "icon": "svgs/cursor.svg",
+          "one_liner": "7/7 仍无新 Changelog（6/30 Team MCP 最新，连续第 7 日空窗）；Automations cron 第 7 日连续触发。"
+        },
+        {
+          "id": "codex",
+          "name": "OpenAI Codex",
+          "icon": "svgs/codex.svg",
+          "one_liner": "预发布线更新至 0.143.0-alpha.38（7/7 04:34Z，新增 code_mode_host）；稳定版 0.142.5 不变。"
+        }
+      ],
+      "china_summary": "阿里 7/10 起全员禁用 Claude；Anthropic 7/3 起全面封堵中国访问通道；DeepSeek 旧模型名 7/24 停用倒计时 17 天。",
+      "media_lens": {
+        "consensus": "验证鸿沟与 Loop 工程成主叙事",
+        "divergence": "阿里禁 Claude vs API 通道是否仍可用，以及 Sonnet 5 真实成本争议。"
+      }
+    },
     {
       "date": "2026-07-06",
       "path": "summaries/2026-07-06",
