@@ -1,8 +1,47 @@
 {
-  "generated_at": "2026-07-07T22:06:10.912Z",
-  "trigger_at": "2026-07-07T22:02:52Z",
-  "latest_date": "2026-07-07",
+  "generated_at": "2026-07-08T22:06:58.427Z",
+  "trigger_at": "2026-07-08T22:01:04Z",
+  "latest_date": "2026-07-08",
   "summaries": [
+    {
+      "date": "2026-07-08",
+      "path": "summaries/2026-07-08",
+      "headline": "npm 2.1.205 当日连发两版（2.1.204/205）；7/8 仍无新 Changelog（6/30 Team MCP 最新；稳定版 0.143.0 晋升 @latest（7/8 01:31Z）",
+      "files": {
+        "readme": "summaries/2026-07-08/README.md",
+        "industry": "summaries/2026-07-08/industry.md",
+        "china_media": "summaries/2026-07-08/china-media.md",
+        "china_ai": "summaries/2026-07-08/china-ai.md",
+        "claude_code": "summaries/2026-07-08/claude-code.md",
+        "cursor": "summaries/2026-07-08/cursor.md",
+        "codex": "summaries/2026-07-08/codex.md"
+      },
+      "tools": [
+        {
+          "id": "claude-code",
+          "name": "Claude Code",
+          "icon": "svgs/claude-code.svg",
+          "one_liner": "npm 2.1.205 当日连发两版（2.1.204/205）；/doctor 升级为全量体检；Fable 5 周额度延至 7/12（社区反弹后官方延期）。"
+        },
+        {
+          "id": "cursor",
+          "name": "Cursor",
+          "icon": "svgs/cursor.svg",
+          "one_liner": "7/8 仍无新 Changelog（6/30 Team MCP 最新，连续第 8 日空窗）；本 Automation cron 第 8 日连续触发。"
+        },
+        {
+          "id": "codex",
+          "name": "OpenAI Codex",
+          "icon": "svgs/codex.svg",
+          "one_liner": "稳定版 0.143.0 晋升 @latest（7/8 01:31Z）；远程插件默认启用、系统代理、MCP tool search"
+        }
+      ],
+      "china_summary": "工信部 7/8 定调 Claude Code 后门风险；阿里 7/10 禁 Claude 倒计时 2 天；腾讯 Hy3 正式版 7/6 上线。",
+      "media_lens": {
+        "consensus": "验证闭环与 Agent Control Plane 成落地主叙事",
+        "divergence": "工信部/阿里禁令 vs API 通道是否仍可用，及 Sonnet 5 真实成本争议。"
+      }
+    },
     {
       "date": "2026-07-07",
       "path": "summaries/2026-07-07",
