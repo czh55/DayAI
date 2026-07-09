@@ -1,8 +1,47 @@
 {
-  "generated_at": "2026-07-08T22:06:58.427Z",
-  "trigger_at": "2026-07-08T22:01:04Z",
-  "latest_date": "2026-07-08",
+  "generated_at": "2026-07-09T22:05:38.776Z",
+  "trigger_at": "2026-07-09T22:02:15Z",
+  "latest_date": "2026-07-09",
   "summaries": [
+    {
+      "date": "2026-07-09",
+      "path": "summaries/2026-07-09",
+      "headline": "npm 2.1.205 当日无新版本；7/9 仍无新 Changelog（6/30 Team MCP 最新；稳定版 0.144.0 晋升 @latest（7/9 16:47Z）",
+      "files": {
+        "readme": "summaries/2026-07-09/README.md",
+        "industry": "summaries/2026-07-09/industry.md",
+        "china_media": "summaries/2026-07-09/china-media.md",
+        "china_ai": "summaries/2026-07-09/china-ai.md",
+        "claude_code": "summaries/2026-07-09/claude-code.md",
+        "cursor": "summaries/2026-07-09/cursor.md",
+        "codex": "summaries/2026-07-09/codex.md"
+      },
+      "tools": [
+        {
+          "id": "claude-code",
+          "name": "Claude Code",
+          "icon": "svgs/claude-code.svg",
+          "one_liner": "npm 2.1.205 当日无新版本；阿里 7/10 禁用 Claude 全系倒计时 1 天；Fable 5 周额度延至 7/12。"
+        },
+        {
+          "id": "cursor",
+          "name": "Cursor",
+          "icon": "svgs/cursor.svg",
+          "one_liner": "7/9 仍无新 Changelog（6/30 Team MCP 最新，连续第 9 日空窗）；Automations cron 连续第 9 日触发。"
+        },
+        {
+          "id": "codex",
+          "name": "OpenAI Codex",
+          "icon": "svgs/codex.svg",
+          "one_liner": "稳定版 0.144.0 晋升 @latest（7/9 16:47Z）；并入 ChatGPT 桌面端"
+        }
+      ],
+      "china_summary": "阿里明日生效 Claude 禁令；工信部 7/8 定调余波持续；腾讯 Hy3 正式版仍为近期最大国产 Agent 更新。",
+      "media_lens": {
+        "consensus": "Agent Control Plane 与 durable agent 是生产落地关键",
+        "divergence": "国内禁令是否阻断 API 通道 vs 开发者灰色中转仍可用。"
+      }
+    },
     {
       "date": "2026-07-08",
       "path": "summaries/2026-07-08",
