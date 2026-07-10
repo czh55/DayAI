@@ -1,8 +1,47 @@
 {
-  "generated_at": "2026-07-09T22:05:38.776Z",
-  "trigger_at": "2026-07-09T22:02:15Z",
-  "latest_date": "2026-07-09",
+  "generated_at": "2026-07-10T22:05:46.422Z",
+  "trigger_at": "2026-07-10T22:02:12Z",
+  "latest_date": "2026-07-10",
   "summaries": [
+    {
+      "date": "2026-07-10",
+      "path": "summaries/2026-07-10",
+      "headline": "npm 2.1.206 小版本发布（7/9 23:33Z）；3.11（7/10） 发布：Side Chats（/side//btw）…；稳定版 0.144.1（7/9 23:02Z）修复安装器与 code_m…",
+      "files": {
+        "readme": "summaries/2026-07-10/README.md",
+        "industry": "summaries/2026-07-10/industry.md",
+        "china_media": "summaries/2026-07-10/china-media.md",
+        "china_ai": "summaries/2026-07-10/china-ai.md",
+        "claude_code": "summaries/2026-07-10/claude-code.md",
+        "cursor": "summaries/2026-07-10/cursor.md",
+        "codex": "summaries/2026-07-10/codex.md"
+      },
+      "tools": [
+        {
+          "id": "claude-code",
+          "name": "Claude Code",
+          "icon": "svgs/claude-code.svg",
+          "one_liner": "npm 2.1.206 小版本发布（7/9 23:33Z）；强化 /doctor、/cd 建议、/commit-push-pr 推送远程"
+        },
+        {
+          "id": "cursor",
+          "name": "Cursor",
+          "icon": "svgs/cursor.svg",
+          "one_liner": "3.11（7/10） 发布：Side Chats（/side//btw）、对话全文搜索、重设计项目/仓库选择器、Cloud Agent 对话级 Hooks（be…"
+        },
+        {
+          "id": "codex",
+          "name": "OpenAI Codex",
+          "icon": "svgs/codex.svg",
+          "one_liner": "稳定版 0.144.1（7/9 23:02Z）修复安装器与 code_mode_host 可靠性；ChatGPT 桌面端合并余波持续。"
+        }
+      ],
+      "china_summary": "阿里 7/10 起内部全面禁用 Claude 全系（含 Claude Code），推荐 Qoder；工信部 7/8 定调余波进入企业实操日。",
+      "media_lens": {
+        "consensus": "2026 是 Long-Horizon Agent 与 Loop 工程元年，验证闭环比单次生成更重要",
+        "divergence": "大厂禁令是否扩散至 API/个人设备 vs 开发者仍可通过中转继续用 Claude。"
+      }
+    },
     {
       "date": "2026-07-09",
       "path": "summaries/2026-07-09",
