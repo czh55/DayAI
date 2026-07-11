@@ -1,8 +1,47 @@
 {
-  "generated_at": "2026-07-10T22:05:46.422Z",
-  "trigger_at": "2026-07-10T22:02:12Z",
-  "latest_date": "2026-07-10",
+  "generated_at": "2026-07-11T22:06:22.409Z",
+  "trigger_at": "2026-07-11T22:02:00Z",
+  "latest_date": "2026-07-11",
   "summaries": [
+    {
+      "date": "2026-07-11",
+      "path": "summaries/2026-07-11",
+      "headline": "npm 2.1.207（7/10 22:25Z）维护发布；3.11（7/10） 仍为最新版；稳定版 0.144.1 未变",
+      "files": {
+        "readme": "summaries/2026-07-11/README.md",
+        "industry": "summaries/2026-07-11/industry.md",
+        "china_media": "summaries/2026-07-11/china-media.md",
+        "china_ai": "summaries/2026-07-11/china-ai.md",
+        "claude_code": "summaries/2026-07-11/claude-code.md",
+        "cursor": "summaries/2026-07-11/cursor.md",
+        "codex": "summaries/2026-07-11/codex.md"
+      },
+      "tools": [
+        {
+          "id": "claude-code",
+          "name": "Claude Code",
+          "icon": "svgs/claude-code.svg",
+          "one_liner": "npm 2.1.207（7/10 22:25Z）维护发布；Fable 5 周额度窗口明日（7/12 23:59 PT）截止，之后须 usage credits。"
+        },
+        {
+          "id": "cursor",
+          "name": "Cursor",
+          "icon": "svgs/cursor.svg",
+          "one_liner": "3.11（7/10） 仍为最新版；Side Chats / 对话搜索进入发布次日观察期，今日无新 Changelog。"
+        },
+        {
+          "id": "codex",
+          "name": "OpenAI Codex",
+          "icon": "svgs/codex.svg",
+          "one_liner": "稳定版 0.144.1 未变；GitHub 预发布 0.145.0-alpha.4（7/11 00:10Z）；ChatGPT 桌面端合并余波持续。"
+        }
+      ],
+      "china_summary": "阿里 Claude 禁令进入第 2 日；腾讯 CodeBuddy Code v2.103.0 新增 DeepSeek V4 Pro/Flash 支持。",
+      "media_lens": {
+        "consensus": "2026 下半场竞争焦点是 Harness/Loop 工程化与 Agent 部署闭环",
+        "divergence": "GPT-5.6 跑分叙事 vs Fable 5 长程 Agent 实战谁更「真省钱」。"
+      }
+    },
     {
       "date": "2026-07-10",
       "path": "summaries/2026-07-10",
