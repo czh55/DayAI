@@ -1,8 +1,47 @@
 {
-  "generated_at": "2026-07-11T22:06:22.409Z",
-  "trigger_at": "2026-07-11T22:02:00Z",
-  "latest_date": "2026-07-11",
+  "generated_at": "2026-07-12T22:05:49.269Z",
+  "trigger_at": "2026-07-12T22:02:49Z",
+  "latest_date": "2026-07-12",
   "summaries": [
+    {
+      "date": "2026-07-12",
+      "path": "summaries/2026-07-12",
+      "headline": "npm 2.1.207 第四日无新版本；3.11（7/10） 仍为最新版；稳定版 0.144.1 未变",
+      "files": {
+        "readme": "summaries/2026-07-12/README.md",
+        "industry": "summaries/2026-07-12/industry.md",
+        "china_media": "summaries/2026-07-12/china-media.md",
+        "china_ai": "summaries/2026-07-12/china-ai.md",
+        "claude_code": "summaries/2026-07-12/claude-code.md",
+        "cursor": "summaries/2026-07-12/cursor.md",
+        "codex": "summaries/2026-07-12/codex.md"
+      },
+      "tools": [
+        {
+          "id": "claude-code",
+          "name": "Claude Code",
+          "icon": "svgs/claude-code.svg",
+          "one_liner": "npm 2.1.207 第四日无新版本；Fable 5 周额度促销窗口今日（7/12 23:59 PT）截止，明日（7/13）起须 usage credits。"
+        },
+        {
+          "id": "cursor",
+          "name": "Cursor",
+          "icon": "svgs/cursor.svg",
+          "one_liner": "3.11（7/10） 仍为最新版；Side Chats / 对话搜索进入发版第 3 日观察期，今日无新 Changelog。"
+        },
+        {
+          "id": "codex",
+          "name": "OpenAI Codex",
+          "icon": "svgs/codex.svg",
+          "one_liner": "稳定版 0.144.1 未变；GitHub 预发布 0.145.0-alpha.4（7/11 00:10Z）；ChatGPT 桌面三入口合并进入消化期。"
+        }
+      ],
+      "china_summary": "阿里 Claude 禁令第 3 日（7/10 生效）持续；腾讯 CodeBuddy v2.103.0 仍为最近更新；DeepSeek 旧模型名弃用倒计时 12 天。",
+      "media_lens": {
+        "consensus": "GPT-5.6 与 Fable 5 成本/跑分之争进入「截止日」实操阶段",
+        "divergence": "Fable 5 截止后开发者是否大规模迁移至 GPT-5.6 Sol 或回退 Sonnet 5。"
+      }
+    },
     {
       "date": "2026-07-11",
       "path": "summaries/2026-07-11",
