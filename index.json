@@ -1,8 +1,47 @@
 {
-  "generated_at": "2026-07-12T22:05:49.269Z",
-  "trigger_at": "2026-07-12T22:02:49Z",
-  "latest_date": "2026-07-12",
+  "generated_at": "2026-07-13T22:04:35.511Z",
+  "trigger_at": "2026-07-13T22:01:15Z",
+  "latest_date": "2026-07-13",
   "summaries": [
+    {
+      "date": "2026-07-13",
+      "path": "summaries/2026-07-13",
+      "headline": "npm 2.1.207 第五日无新版本；3.11（7/10） 仍为最新版；稳定版 0.144.1",
+      "files": {
+        "readme": "summaries/2026-07-13/README.md",
+        "industry": "summaries/2026-07-13/industry.md",
+        "china_media": "summaries/2026-07-13/china-media.md",
+        "china_ai": "summaries/2026-07-13/china-ai.md",
+        "claude_code": "summaries/2026-07-13/claude-code.md",
+        "cursor": "summaries/2026-07-13/cursor.md",
+        "codex": "summaries/2026-07-13/codex.md"
+      },
+      "tools": [
+        {
+          "id": "claude-code",
+          "name": "Claude Code",
+          "icon": "svgs/claude-code.svg",
+          "one_liner": "npm 2.1.207 第五日无新版本；Fable 5 订阅包含窗口已于 7/12 23:59 PT 截止"
+        },
+        {
+          "id": "cursor",
+          "name": "Cursor",
+          "icon": "svgs/cursor.svg",
+          "one_liner": "3.11（7/10） 仍为最新版；Side Chats / 对话搜索进入发版第 4 日观察期，今日无新 Changelog。"
+        },
+        {
+          "id": "codex",
+          "name": "OpenAI Codex",
+          "icon": "svgs/codex.svg",
+          "one_liner": "稳定版 0.144.1"
+        }
+      ],
+      "china_summary": "阿里 Claude 禁令第 4 日（7/10 生效）持续；腾讯 CodeBuddy v2.103.0 仍为最近更新；DeepSeek 旧模型名弃用倒计时 11 天。",
+      "media_lens": {
+        "consensus": "Fable 5 截止后开发者进入「credits 预算 + 模型回退」实操阶段",
+        "divergence": "Codex 0.144.2 回滚 auto-review 是否预示 OpenAI 在「自动审查激进度」上向社区妥协。"
+      }
+    },
     {
       "date": "2026-07-12",
       "path": "summaries/2026-07-12",
