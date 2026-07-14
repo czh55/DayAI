@@ -1,8 +1,47 @@
 {
-  "generated_at": "2026-07-13T22:04:35.511Z",
-  "trigger_at": "2026-07-13T22:01:15Z",
-  "latest_date": "2026-07-13",
+  "generated_at": "2026-07-14T22:04:50.855Z",
+  "trigger_at": "2026-07-14T22:01:24Z",
+  "latest_date": "2026-07-14",
   "summaries": [
+    {
+      "date": "2026-07-14",
+      "path": "summaries/2026-07-14",
+      "headline": "npm 2.1.209（7/14 04:45 UTC）发布；3.11（7/10） 仍为最新 Changelog；稳定版 0.144.4（7/14 05:08 UTC）无用户可见变更",
+      "files": {
+        "readme": "summaries/2026-07-14/README.md",
+        "industry": "summaries/2026-07-14/industry.md",
+        "china_media": "summaries/2026-07-14/china-media.md",
+        "china_ai": "summaries/2026-07-14/china-ai.md",
+        "claude_code": "summaries/2026-07-14/claude-code.md",
+        "cursor": "summaries/2026-07-14/cursor.md",
+        "codex": "summaries/2026-07-14/codex.md"
+      },
+      "tools": [
+        {
+          "id": "claude-code",
+          "name": "Claude Code",
+          "icon": "svgs/claude-code.svg",
+          "one_liner": "npm 2.1.209（7/14 04:45 UTC）发布，含 screen reader、/model 后台会话修复、内存泄漏补丁"
+        },
+        {
+          "id": "cursor",
+          "name": "Cursor",
+          "icon": "svgs/cursor.svg",
+          "one_liner": "3.11（7/10） 仍为最新 Changelog；外媒报道内部测试通用智能体 Sand（7/14）"
+        },
+        {
+          "id": "codex",
+          "name": "OpenAI Codex",
+          "icon": "svgs/codex.svg",
+          "one_liner": "稳定版 0.144.4（7/14 05:08 UTC）无用户可见变更；5 小时滚动限额临时移除（7/12 Tibo 公告）+ 用量重置仍在生效。"
+        }
+      ],
+      "china_summary": "阿里 Claude 禁令第 5 日持续；Fable 5 再延期与 Codex 限流松绑引发国产平替（Qoder/CodeBuddy）二次讨论。",
+      "media_lens": {
+        "consensus": "AI 编程进入「限流博弈 + 长程 Agent」双主线",
+        "divergence": "Cursor Sand 能否在 SpaceX 收购阴影下独立推向市场。"
+      }
+    },
     {
       "date": "2026-07-13",
       "path": "summaries/2026-07-13",
