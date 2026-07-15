@@ -1,8 +1,47 @@
 {
-  "generated_at": "2026-07-14T22:04:50.855Z",
-  "trigger_at": "2026-07-14T22:01:24Z",
-  "latest_date": "2026-07-14",
+  "generated_at": "2026-07-15T22:04:48.095Z",
+  "trigger_at": "2026-07-15T22:01:35Z",
+  "latest_date": "2026-07-15",
   "summaries": [
+    {
+      "date": "2026-07-15",
+      "path": "summaries/2026-07-15",
+      "headline": "npm 2.1.210（7/14 发布）第三日无新版本；3.11（7/10） 仍为最新 Changelog；稳定版 0.144.4 第四日无变更",
+      "files": {
+        "readme": "summaries/2026-07-15/README.md",
+        "industry": "summaries/2026-07-15/industry.md",
+        "china_media": "summaries/2026-07-15/china-media.md",
+        "china_ai": "summaries/2026-07-15/china-ai.md",
+        "claude_code": "summaries/2026-07-15/claude-code.md",
+        "cursor": "summaries/2026-07-15/cursor.md",
+        "codex": "summaries/2026-07-15/codex.md"
+      },
+      "tools": [
+        {
+          "id": "claude-code",
+          "name": "Claude Code",
+          "icon": "svgs/claude-code.svg",
+          "one_liner": "npm 2.1.210（7/14 发布）第三日无新版本；Fable 5 在 advisor picker 临时标为不可用（服务端修复中）"
+        },
+        {
+          "id": "cursor",
+          "name": "Cursor",
+          "icon": "svgs/cursor.svg",
+          "one_liner": "3.11（7/10） 仍为最新 Changelog；内测通用智能体 Sand 进入第 3 周观察，SpaceX $600 亿收购 Q3 交割变量持续。"
+        },
+        {
+          "id": "codex",
+          "name": "OpenAI Codex",
+          "icon": "svgs/codex.svg",
+          "one_liner": "稳定版 0.144.4 第四日无变更；0.145.0-alpha.14 今日 22:01 UTC 连发第 3 个 alpha；5 小时滚动限额临时移除仍生效。"
+        }
+      ],
+      "china_summary": "阿里 Claude 禁令第 6 日持续；DeepSeek deepseek-chat/reasoner 弃用倒计时 9 天（7/24 23:59 北京时间）。",
+      "media_lens": {
+        "consensus": "AI 编程从 Prompt 走向 Loop/Control Plane，开发者角色转向「循环设计者」",
+        "divergence": "Cursor Sand 能否在 SpaceX 收购前独立推向市场。"
+      }
+    },
     {
       "date": "2026-07-14",
       "path": "summaries/2026-07-14",
