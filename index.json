@@ -1,8 +1,47 @@
 {
-  "generated_at": "2026-07-15T22:04:48.095Z",
-  "trigger_at": "2026-07-15T22:01:35Z",
-  "latest_date": "2026-07-15",
+  "generated_at": "2026-07-16T22:03:53.708Z",
+  "trigger_at": "2026-07-16T22:01:00Z",
+  "latest_date": "2026-07-16",
   "summaries": [
+    {
+      "date": "2026-07-16",
+      "path": "summaries/2026-07-16",
+      "headline": "npm 2.1.211（7/15 23:02 UTC 发布）首日上线；3.11（7/10） 第七日仍为最新 Changelog；稳定版 0.144.5（7/16 02:54 UTC）今日发布",
+      "files": {
+        "readme": "summaries/2026-07-16/README.md",
+        "industry": "summaries/2026-07-16/industry.md",
+        "china_media": "summaries/2026-07-16/china-media.md",
+        "china_ai": "summaries/2026-07-16/china-ai.md",
+        "claude_code": "summaries/2026-07-16/claude-code.md",
+        "cursor": "summaries/2026-07-16/cursor.md",
+        "codex": "summaries/2026-07-16/codex.md"
+      },
+      "tools": [
+        {
+          "id": "claude-code",
+          "name": "Claude Code",
+          "icon": "svgs/claude-code.svg",
+          "one_liner": "npm 2.1.211（7/15 23:02 UTC 发布）首日上线；新增 --forward-subagent-text 子 Agent 流式输出"
+        },
+        {
+          "id": "cursor",
+          "name": "Cursor",
+          "icon": "svgs/cursor.svg",
+          "one_liner": "3.11（7/10） 第七日仍为最新 Changelog；机器之心 Week 25 确认 SpaceX $600 亿收购 Cursor 为本周头条"
+        },
+        {
+          "id": "codex",
+          "name": "OpenAI Codex",
+          "icon": "svgs/codex.svg",
+          "one_liner": "稳定版 0.144.5（7/16 02:54 UTC）今日发布，强化危险命令检测；0.145.0-alpha.18 于触发前 4 小时连发"
+        }
+      ],
+      "china_summary": "阿里 Claude 禁令第 7 日持续；DeepSeek deepseek-chat/reasoner 弃用倒计时 8 天（7/24 23:59 北京时间）。",
+      "media_lens": {
+        "consensus": "Agent 从 Prompt 走向 Loop/Harness，算力松绑与版本补丁并行",
+        "divergence": "Fable 5 7/19 截止后是否会第三次延期。"
+      }
+    },
     {
       "date": "2026-07-15",
       "path": "summaries/2026-07-15",
