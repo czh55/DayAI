@@ -1,8 +1,47 @@
 {
-  "generated_at": "2026-07-16T22:03:53.708Z",
-  "trigger_at": "2026-07-16T22:01:00Z",
-  "latest_date": "2026-07-16",
+  "generated_at": "2026-07-17T22:04:52.591Z",
+  "trigger_at": "2026-07-17T22:00:37Z",
+  "latest_date": "2026-07-17",
   "summaries": [
+    {
+      "date": "2026-07-17",
+      "path": "summaries/2026-07-17",
+      "headline": "npm 2.1.212（7/17 00:26 UTC）发布；7/17 Changelog 更新 Cursor in Slack：启动…；稳定版 0.144.5 第二日",
+      "files": {
+        "readme": "summaries/2026-07-17/README.md",
+        "industry": "summaries/2026-07-17/industry.md",
+        "china_media": "summaries/2026-07-17/china-media.md",
+        "china_ai": "summaries/2026-07-17/china-ai.md",
+        "claude_code": "summaries/2026-07-17/claude-code.md",
+        "cursor": "summaries/2026-07-17/cursor.md",
+        "codex": "summaries/2026-07-17/codex.md"
+      },
+      "tools": [
+        {
+          "id": "claude-code",
+          "name": "Claude Code",
+          "icon": "svgs/claude-code.svg",
+          "one_liner": "npm 2.1.212（7/17 00:26 UTC）发布；/fork 改为复制到后台会话、/subtask 取代会话内子 Agent"
+        },
+        {
+          "id": "cursor",
+          "name": "Cursor",
+          "icon": "svgs/cursor.svg",
+          "one_liner": "7/17 Changelog 更新 Cursor in Slack：启动前先出计划、支持多仓库环境与跨频道/线程读写，3.11 桌面端仍为最近大版本。"
+        },
+        {
+          "id": "codex",
+          "name": "OpenAI Codex",
+          "icon": "svgs/codex.svg",
+          "one_liner": "稳定版 0.144.5 第二日；0.145.0-alpha.22 于 17:29 UTC 发布，npm @latest 仍指向 0.144.5"
+        }
+      ],
+      "china_summary": "Kimi K3 昨夜发布（7/27 开源）；DeepSeek 旧 API 名弃用倒计时 7 天；Grok Build 7/16 全面开源。",
+      "media_lens": {
+        "consensus": "AI 编程重心从 Prompt 转向 Loop/Harness 系统工程",
+        "divergence": "Kimi K3 前端 Arena 第一是否代表国产模型已全面追平 Fable 5。"
+      }
+    },
     {
       "date": "2026-07-16",
       "path": "summaries/2026-07-16",
