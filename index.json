@@ -1,8 +1,47 @@
 {
-  "generated_at": "2026-07-17T22:04:52.591Z",
-  "trigger_at": "2026-07-17T22:00:37Z",
-  "latest_date": "2026-07-17",
+  "generated_at": "2026-07-18T22:03:49.466Z",
+  "trigger_at": "2026-07-18T22:01:33Z",
+  "latest_date": "2026-07-18",
   "summaries": [
+    {
+      "date": "2026-07-18",
+      "path": "summaries/2026-07-18",
+      "headline": "npm 2.1.214（7/18 01:20 UTC）安全加固版：权限分…；7/18 无新 Changelog；稳定版 0.144.6 今日 13:51 UTC 发布",
+      "files": {
+        "readme": "summaries/2026-07-18/README.md",
+        "industry": "summaries/2026-07-18/industry.md",
+        "china_media": "summaries/2026-07-18/china-media.md",
+        "china_ai": "summaries/2026-07-18/china-ai.md",
+        "claude_code": "summaries/2026-07-18/claude-code.md",
+        "cursor": "summaries/2026-07-18/cursor.md",
+        "codex": "summaries/2026-07-18/codex.md"
+      },
+      "tools": [
+        {
+          "id": "claude-code",
+          "name": "Claude Code",
+          "icon": "svgs/claude-code.svg",
+          "one_liner": "npm 2.1.214（7/18 01:20 UTC）安全加固版：权限分析器全面 fail-closed、新增 EndConversation 工具、长工具调用…"
+        },
+        {
+          "id": "cursor",
+          "name": "Cursor",
+          "icon": "svgs/cursor.svg",
+          "one_liner": "7/18 无新 Changelog；7/17 Slack 集成（计划先行、多仓库环境、跨频道工作流）仍为最近更新，桌面端 3.11 无变动。"
+        },
+        {
+          "id": "codex",
+          "name": "OpenAI Codex",
+          "icon": "svgs/codex.svg",
+          "one_liner": "稳定版 0.144.6 今日 13:51 UTC 发布，刷新 GPT-5.6 Sol/Terra/Luna 内置指令并修正上下文窗口为 272K"
+        }
+      ],
+      "china_summary": "Kimi K3 发布次日持续发酵；DeepSeek 旧 API 名弃用倒计时 6 天；Trae 2.0 预告 7/21 发布 SOLO 模式。",
+      "media_lens": {
+        "consensus": "AI 编程竞争从模型能力转向 Loop/Harness 系统工程与额度博弈",
+        "divergence": "Kimi K3 前端 Arena 第一是否代表国产模型已在编程全栈追平闭源旗舰。"
+      }
+    },
     {
       "date": "2026-07-17",
       "path": "summaries/2026-07-17",
