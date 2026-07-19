@@ -1,8 +1,47 @@
 {
-  "generated_at": "2026-07-18T22:03:49.466Z",
-  "trigger_at": "2026-07-18T22:01:33Z",
-  "latest_date": "2026-07-18",
+  "generated_at": "2026-07-19T22:03:17.534Z",
+  "trigger_at": "2026-07-19T22:01:04Z",
+  "latest_date": "2026-07-19",
   "summaries": [
+    {
+      "date": "2026-07-19",
+      "path": "summaries/2026-07-19",
+      "headline": "npm 2.1.215（7/19 02:56 UTC）行为微调：Clau…；7/19 无新 Changelog；稳定版 0.144.6（7/18 发布）无新 stable",
+      "files": {
+        "readme": "summaries/2026-07-19/README.md",
+        "industry": "summaries/2026-07-19/industry.md",
+        "china_media": "summaries/2026-07-19/china-media.md",
+        "china_ai": "summaries/2026-07-19/china-ai.md",
+        "claude_code": "summaries/2026-07-19/claude-code.md",
+        "cursor": "summaries/2026-07-19/cursor.md",
+        "codex": "summaries/2026-07-19/codex.md"
+      },
+      "tools": [
+        {
+          "id": "claude-code",
+          "name": "Claude Code",
+          "icon": "svgs/claude-code.svg",
+          "one_liner": "npm 2.1.215（7/19 02:56 UTC）行为微调：Claude 不再自动运行 /verify 与 /code-review skills"
+        },
+        {
+          "id": "cursor",
+          "name": "Cursor",
+          "icon": "svgs/cursor.svg",
+          "one_liner": "7/19 无新 Changelog；7/17 Slack 集成（计划先行、多仓库环境、跨频道工作流）仍为最近更新，桌面端 3.11 无变动。"
+        },
+        {
+          "id": "codex",
+          "name": "OpenAI Codex",
+          "icon": "svgs/codex.svg",
+          "one_liner": "稳定版 0.144.6（7/18 发布）无新 stable；预发布 0.145.0-alpha.24（7/18 22:26 UTC）；5h 限额临时移除仍生效。"
+        }
+      ],
+      "china_summary": "Fable 5 窗口今日截止、DeepSeek 旧 API 名弃用倒计时 5 天；Trae 2.0 SOLO 模式 7/21 发布（倒计时 2 天）；Kimi K3 发布第 3 日持续发酵。",
+      "media_lens": {
+        "consensus": "AI 编程竞争从模型能力转向 Loop/Harness 系统工程与额度博弈",
+        "divergence": "Fable 5 今日截止后 Pro 用户是否会大规模迁移至 Codex/GPT-5.6 Sol。"
+      }
+    },
     {
       "date": "2026-07-18",
       "path": "summaries/2026-07-18",
