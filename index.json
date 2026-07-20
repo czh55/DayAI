@@ -1,8 +1,47 @@
 {
-  "generated_at": "2026-07-19T22:03:17.534Z",
-  "trigger_at": "2026-07-19T22:01:04Z",
-  "latest_date": "2026-07-19",
+  "generated_at": "2026-07-20T22:03:35.667Z",
+  "trigger_at": "2026-07-20T22:00:56Z",
+  "latest_date": "2026-07-20",
   "summaries": [
+    {
+      "date": "2026-07-20",
+      "path": "summaries/2026-07-20",
+      "headline": "npm 2.1.215 仍为最新（7/20 无新 release）；7/20 无新 Changelog；稳定版 0.144.6 无新 stable",
+      "files": {
+        "readme": "summaries/2026-07-20/README.md",
+        "industry": "summaries/2026-07-20/industry.md",
+        "china_media": "summaries/2026-07-20/china-media.md",
+        "china_ai": "summaries/2026-07-20/china-ai.md",
+        "claude_code": "summaries/2026-07-20/claude-code.md",
+        "cursor": "summaries/2026-07-20/cursor.md",
+        "codex": "summaries/2026-07-20/codex.md"
+      },
+      "tools": [
+        {
+          "id": "claude-code",
+          "name": "Claude Code",
+          "icon": "svgs/claude-code.svg",
+          "one_liner": "npm 2.1.215 仍为最新（7/20 无新 release）；Fable 5 分层定价今日（7/20 00:00 PT）正式生效——Max/Team Pr…"
+        },
+        {
+          "id": "cursor",
+          "name": "Cursor",
+          "icon": "svgs/cursor.svg",
+          "one_liner": "7/20 无新 Changelog；7/17 Slack 集成（计划先行、多仓库、跨频道）仍为最近更新，桌面端 3.11 无变动。"
+        },
+        {
+          "id": "codex",
+          "name": "OpenAI Codex",
+          "icon": "svgs/codex.svg",
+          "one_liner": "稳定版 0.144.6 无新 stable；今日发布预发布 0.145.0-alpha.25（7/20 18:51 UTC）；5h 限额临时移除仍生效。"
+        }
+      ],
+      "china_summary": "Fable 5 分层今日落地、DeepSeek 旧 API 名弃用倒计时 4 天；Kimi K3 发布第 4 日持续发酵；TRAE Work 知识库（7/18）上线。",
+      "media_lens": {
+        "consensus": "Fable 5 分层落地标志额度博弈从「延期促销」转入「永久定价」",
+        "divergence": "Pro 用户收到 $100 credits 后是否会大规模迁移至 Codex/GPT-5.6 Sol，还是 credits 足以留住重度用户。"
+      }
+    },
     {
       "date": "2026-07-19",
       "path": "summaries/2026-07-19",
