@@ -1,8 +1,47 @@
 {
-  "generated_at": "2026-07-20T22:03:35.667Z",
-  "trigger_at": "2026-07-20T22:00:56Z",
-  "latest_date": "2026-07-20",
+  "generated_at": "2026-07-21T22:03:02.157Z",
+  "trigger_at": "2026-07-21T22:00:08Z",
+  "latest_date": "2026-07-21",
   "summaries": [
+    {
+      "date": "2026-07-21",
+      "path": "summaries/2026-07-21",
+      "headline": "今日发布 2.1.217（21:35 UTC）；7/21 无新 Changelog；稳定版 0.145.0 今日发布（18:21 UTC）",
+      "files": {
+        "readme": "summaries/2026-07-21/README.md",
+        "industry": "summaries/2026-07-21/industry.md",
+        "china_media": "summaries/2026-07-21/china-media.md",
+        "china_ai": "summaries/2026-07-21/china-ai.md",
+        "claude_code": "summaries/2026-07-21/claude-code.md",
+        "cursor": "summaries/2026-07-21/cursor.md",
+        "codex": "summaries/2026-07-21/codex.md"
+      },
+      "tools": [
+        {
+          "id": "claude-code",
+          "name": "Claude Code",
+          "icon": "svgs/claude-code.svg",
+          "one_liner": "今日发布 2.1.217（21:35 UTC）；新增 emoji 短码补全、子智能体并发上限（默认 20）、嵌套子智能体默认关闭"
+        },
+        {
+          "id": "cursor",
+          "name": "Cursor",
+          "icon": "svgs/cursor.svg",
+          "one_liner": "7/21 无新 Changelog；7/17 Slack 集成（计划先行、多仓库、跨频道）仍为最近更新，桌面端 3.11 无变动。"
+        },
+        {
+          "id": "codex",
+          "name": "OpenAI Codex",
+          "icon": "svgs/codex.svg",
+          "one_liner": "稳定版 0.145.0 今日发布（18:21 UTC），npm @latest 已跟随"
+        }
+      ],
+      "china_summary": "TRAE 2.0 SOLO 今晚正式发布（Context Engineer 全流程交付）；DeepSeek 旧 API 名弃用倒计时 3 天；Kimi K3 发布第 5 日、权重开源倒计时 6 天。",
+      "media_lens": {
+        "consensus": "TRAE SOLO 标志国产 AI 编程从「IDE 增强」进入「Context Engineer 自主交付」阶段",
+        "divergence": "SOLO 能否在真实工程场景替代 Cursor/Claude Code，还是仅适合 MVP 与演示。"
+      }
+    },
     {
       "date": "2026-07-20",
       "path": "summaries/2026-07-20",
