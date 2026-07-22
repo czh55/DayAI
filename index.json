@@ -1,8 +1,47 @@
 {
-  "generated_at": "2026-07-21T22:03:02.157Z",
-  "trigger_at": "2026-07-21T22:00:08Z",
-  "latest_date": "2026-07-21",
+  "generated_at": "2026-07-22T22:03:47.791Z",
+  "trigger_at": "2026-07-22T22:01:02Z",
+  "latest_date": "2026-07-22",
   "summaries": [
+    {
+      "date": "2026-07-22",
+      "path": "summaries/2026-07-22",
+      "headline": "今日发布 2.1.218（21:24 UTC）；7/22 发布 Cursor Router：Auto 模式新增 Inte…；稳定版仍为 0.145.0",
+      "files": {
+        "readme": "summaries/2026-07-22/README.md",
+        "industry": "summaries/2026-07-22/industry.md",
+        "china_media": "summaries/2026-07-22/china-media.md",
+        "china_ai": "summaries/2026-07-22/china-ai.md",
+        "claude_code": "summaries/2026-07-22/claude-code.md",
+        "cursor": "summaries/2026-07-22/cursor.md",
+        "codex": "summaries/2026-07-22/codex.md"
+      },
+      "tools": [
+        {
+          "id": "claude-code",
+          "name": "Claude Code",
+          "icon": "svgs/claude-code.svg",
+          "one_liner": "今日发布 2.1.218（21:24 UTC）；/code-review 改为后台子智能体运行，context: fork 技能默认后台执行"
+        },
+        {
+          "id": "cursor",
+          "name": "Cursor",
+          "icon": "svgs/cursor.svg",
+          "one_liner": "7/22 发布 Cursor Router：Auto 模式新增 Intelligence / Balance / Cost 三档优化，按任务复杂度路由模型"
+        },
+        {
+          "id": "codex",
+          "name": "OpenAI Codex",
+          "icon": "svgs/codex.svg",
+          "one_liner": "稳定版仍为 0.145.0；今日 GitHub 连发 0.146.0-alpha.3（21:51 UTC）等 alpha 预发布"
+        }
+      ],
+      "china_summary": "DeepSeek 旧 API 名弃用倒计时 2 天（7/24）；Kimi K3 权重开源倒计时 5 天（7/27）；TRAE SOLO 发布次日持续发酵。",
+      "media_lens": {
+        "consensus": "Agent Control Plane 与智能路由成为 2026 下半年主叙事，Cursor Router 与 Codex /import 共同降低多模型切换成本",
+        "divergence": "路由降本是否以不可预测的质量波动为代价，Pro 用户能否真正受益。"
+      }
+    },
     {
       "date": "2026-07-21",
       "path": "summaries/2026-07-21",

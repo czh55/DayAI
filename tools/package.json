@@ -11,7 +11,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@anthropic-ai/claude-code": "^2.1.217",
+    "@anthropic-ai/claude-code": "^2.1.218",
     "@openai/codex": "^0.145.0"
   }
 }
