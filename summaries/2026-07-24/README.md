@@ -1,0 +1,73 @@
+# DayAI 每日资讯索引 — 2026-07-24
+
+> 检索触发时间：2026-07-24T22:02:00Z（UTC）｜本地 CLI 实测环境：`/workspace/tools`
+
+## 今日一句话结论
+
+| 板块 | 结论 |
+|------|------|
+| **Claude Code** | 今日发布 **2.1.219**，同步上线 **Claude Opus 5**（`claude-opus-5`，1M context，默认 Opus 模型）；新增嵌套子智能体 depth 3、`sandbox.network.strictAllowlist` 与 MCP 错误诊断增强。 |
+| **Cursor** | 7/24 无新 Changelog；**Cursor Router**（7/22）进入发布第 3 日，Teams 默认三档路由（Intelligence/Balance/Cost）持续落地，社区聚焦 brownfield 路由可预测性。 |
+| **Codex** | 稳定版 **0.145.0** 不变；GitHub 今日连发 **0.146.0-alpha.6**（05:31 UTC）与 **alpha.7**（18:24 UTC），npm `@latest` 未跟随。 |
+| **国内综述** | **DeepSeek 旧 API 名已于 15:59 UTC 正式退役**（`deepseek-chat`/`deepseek-reasoner`）；**Kimi K3 权重开源倒计时 3 天**（7/27）；未迁移服务今日起报错。 |
+| **行业宏观** | 7/24 为「双截止日」：DeepSeek 别名硬切 + Anthropic **Opus 5** 旗舰同日发布——竞争焦点从模型能力转向 Harness 成本治理与 API 迁移合规。 |
+| **媒体透镜** | **共识**：Opus 5「半价 Fable 级」叙事与 DeepSeek 迁移教程潮叠加，Agent 成本优化成主旋律；**最大分歧**：Opus 5 日常可用性是否真能替代 Fable 5 做复杂 Agent 循环，还是仅适合知识工作与中等复杂度编码。 |
+
+## 国内厂商一句话结论表
+
+| 厂商/产品 | 今日结论 |
+|-----------|----------|
+| 阿里通义/百炼 | 禁令第 15 日：办公环境 Claude 全系仍禁用，推荐 Qoder；通义模型今日无新版本（检索 2026-07-24 22:02 UTC） |
+| 百度文心/Comate | 今日无公开更新（检索 2026-07-24 22:02 UTC） |
+| 腾讯混元/CodeBuddy | CodeBuddy Code v2.103.0 仍最新；今日无公开更新 |
+| 字节豆包/Trae/火山方舟 | TRAE 2.0 SOLO 发布第 4 日；Kimi K3 需 Anthropic 接口 `https://api.kimi.com/coding/` 自定义配置 |
+| 智谱 GLM/CodeGeeX | GLM-5.2（6/27）仍最新；今日无公开更新 |
+| 月之暗面 Kimi | **Kimi K3** 发布第 9 日；完整权重 **7/27** 开源倒计时 **3 天** |
+| DeepSeek | **旧 API 名已于 7/24 15:59 UTC 退役**；须使用 `deepseek-v4-flash` / `deepseek-v4-pro` |
+| 讯飞星火/iFlyCode | 今日无公开更新（检索 2026-07-24 22:02 UTC） |
+| 华为盘古/CodeArts | 今日无公开更新（检索 2026-07-24 22:02 UTC） |
+| MiniMax | 今日无公开更新（检索 2026-07-24 22:02 UTC） |
+| 商汤 | 今日无公开更新（检索 2026-07-24 22:02 UTC） |
+| 昆仑万维 | 今日无公开更新（检索 2026-07-24 22:02 UTC） |
+| 零一万物 | 今日无公开更新（检索 2026-07-24 22:02 UTC） |
+| 面壁智能 | 今日无公开更新（检索 2026-07-24 22:02 UTC） |
+
+## 媒体行业透镜一句话
+
+- **共识**：Opus 5 发布与 DeepSeek API 硬截止同日，媒体集中讨论「半价前沿智能」与「迁移一行代码背后的 thinking 参数陷阱」→ 详见 [`china-media.md`](./china-media.md#今日媒体行业透镜)
+- **最大分歧**：Opus 5 能否真正替代 Fable 5 做长程 Agent 循环，还是仅适合日常编码与知识工作 → 详见 [`china-media.md`](./china-media.md#今日媒体行业透镜)
+
+## 本地实测摘要
+
+| 工具 | 版本 | 结果 |
+|------|------|------|
+| Claude Code | 2.1.219 | ✅ `--version` / `--help` 正常；⚠️ 无 API Key 未实测 Opus 5 推理 |
+| Codex CLI (stable) | 0.145.0 | ✅ npm `@latest` 仍为 0.145.0；`doctor` 12 ok · 1 warn · 4 fail |
+| Codex CLI (alpha) | 0.146.0-alpha.7 | ✅ GitHub 7/24 18:24 UTC 发布；npm `@latest` 未跟随 |
+| Cursor 桌面 | — | ⚠️ 未实测（Cloud Agent 无 GUI）；以 7/22 Cursor Router Changelog 为准 |
+| DeepSeek API | — | ⚠️ 未实测（无 `DEEPSEEK_API_KEY`）；SOP 见 [`china-ai.md`](./china-ai.md) |
+
+```bash
+cd /workspace/tools
+./node_modules/.bin/claude --version   # 2.1.219 (Claude Code)
+./node_modules/.bin/codex --version    # codex-cli 0.145.0
+./node_modules/.bin/codex doctor 2>&1 | tail -3
+# 12 ok · 1 idle · 5 notes · 1 warn · 4 fail failed
+```
+
+## 文档导航
+
+| 文件 | 内容 |
+|------|------|
+| [`industry.md`](./industry.md) | 行业宏观：Opus 5 发布、DeepSeek API 退役、Router 落地观察 |
+| [`china-media.md`](./china-media.md) | 国内媒体行业透镜：半价前沿叙事、迁移陷阱讨论 |
+| [`china-ai.md`](./china-ai.md) | 国内厂商轮询、DeepSeek 迁移 SOP、Kimi K3 倒计时 |
+| [`claude-code.md`](./claude-code.md) | Claude Code 2.1.219 + Opus 5 全特性详解 |
+| [`cursor.md`](./cursor.md) | Cursor Router 发布第 3 日详解与三档优化模式 |
+| [`codex.md`](./codex.md) | Codex 0.146.0-alpha.6/7 迭代与 0.145.0 stable 维护 |
+
+## 检索记录脚注
+
+- 国际官方：Claude Code Changelog（2.1.219 / 7/24 17:14 UTC）、[Anthropic Opus 5 公告](https://www.anthropic.com/news/claude-opus-5)、Cursor Changelog（最新 Router / 7/22）、Codex GitHub Releases（alpha.7 / 7/24 18:24 UTC）、DeepSeek API Docs
+- 国内媒体：site:qbitai.com、site:36kr.com、site:jiqizhixin.com、site:huxiu.com、site:infoq.cn；7/24 ±24h 窗口以 Opus 5 与 DeepSeek 迁移为主
+- 交叉验证：DeepSeek 退役时间经官方 API Docs + Pricing 页 + 多家迁移指南三方确认；Opus 5 经 Anthropic News + GitHub v2.1.219 Release + Changelog 确认
