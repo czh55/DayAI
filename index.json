@@ -1,8 +1,47 @@
 {
-  "generated_at": "2026-07-24T22:04:33.130Z",
-  "trigger_at": "2026-07-24T22:02:00Z",
-  "latest_date": "2026-07-24",
+  "generated_at": "2026-07-25T22:04:29.589Z",
+  "trigger_at": "2026-07-25T22:02:00Z",
+  "latest_date": "2026-07-25",
   "summaries": [
+    {
+      "date": "2026-07-25",
+      "path": "summaries/2026-07-25",
+      "headline": "今日发布 2.1.220（01:35 UTC）维护版；7/25 无新 Changelog；稳定版 0.145.0 不变",
+      "files": {
+        "readme": "summaries/2026-07-25/README.md",
+        "industry": "summaries/2026-07-25/industry.md",
+        "china_media": "summaries/2026-07-25/china-media.md",
+        "china_ai": "summaries/2026-07-25/china-ai.md",
+        "claude_code": "summaries/2026-07-25/claude-code.md",
+        "cursor": "summaries/2026-07-25/cursor.md",
+        "codex": "summaries/2026-07-25/codex.md"
+      },
+      "tools": [
+        {
+          "id": "claude-code",
+          "name": "Claude Code",
+          "icon": "svgs/claude-code.svg",
+          "one_liner": "今日发布 2.1.220（01:35 UTC）维护版，仅含 bug fixes；Opus 5 进入发布第 2 日"
+        },
+        {
+          "id": "cursor",
+          "name": "Cursor",
+          "icon": "svgs/cursor.svg",
+          "one_liner": "7/25 无新 Changelog；Cursor Router（7/22）进入发布第 4 日"
+        },
+        {
+          "id": "codex",
+          "name": "OpenAI Codex",
+          "icon": "svgs/codex.svg",
+          "one_liner": "稳定版 0.145.0 不变；GitHub 今日连发 alpha.9（00:34）、alpha.10（02:18）、alpha.10.1（20:29 UTC）"
+        }
+      ],
+      "china_summary": "Kimi K3 完整权重开源倒计时 2 天（7/27）；黄仁勋首条推文力挺开放权重；DeepSeek 旧 API 名退役后第 2 日，迁移教程潮持续。",
+      "media_lens": {
+        "consensus": "Opus 5「半价前沿」与 Kimi K3 开源倒计时叠加，Agent 成本优化成主旋律",
+        "divergence": "K3 权重开放后国内自托管是否真能落地，还是仅 API 生态受益。"
+      }
+    },
     {
       "date": "2026-07-24",
       "path": "summaries/2026-07-24",
