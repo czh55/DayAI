@@ -1,8 +1,47 @@
 {
-  "generated_at": "2026-07-25T22:04:29.589Z",
-  "trigger_at": "2026-07-25T22:02:00Z",
-  "latest_date": "2026-07-25",
+  "generated_at": "2026-07-26T22:05:19.741Z",
+  "trigger_at": "2026-07-26T22:01:36Z",
+  "latest_date": "2026-07-26",
   "summaries": [
+    {
+      "date": "2026-07-26",
+      "path": "summaries/2026-07-26",
+      "headline": "7/26 无新版本，npm @latest 仍为 2.1.220；7/26 无新 Changelog；稳定版 0.145.0 不变",
+      "files": {
+        "readme": "summaries/2026-07-26/README.md",
+        "industry": "summaries/2026-07-26/industry.md",
+        "china_media": "summaries/2026-07-26/china-media.md",
+        "china_ai": "summaries/2026-07-26/china-ai.md",
+        "claude_code": "summaries/2026-07-26/claude-code.md",
+        "cursor": "summaries/2026-07-26/cursor.md",
+        "codex": "summaries/2026-07-26/codex.md"
+      },
+      "tools": [
+        {
+          "id": "claude-code",
+          "name": "Claude Code",
+          "icon": "svgs/claude-code.svg",
+          "one_liner": "7/26 无新版本，npm @latest 仍为 2.1.220；Opus 5 进入发布第 3 日"
+        },
+        {
+          "id": "cursor",
+          "name": "Cursor",
+          "icon": "svgs/cursor.svg",
+          "one_liner": "7/26 无新 Changelog；Cursor Router（7/22）进入发布第 5 日，Teams 三档路由持续落地，无 Opus 5 相关官方条目。"
+        },
+        {
+          "id": "codex",
+          "name": "OpenAI Codex",
+          "icon": "svgs/codex.svg",
+          "one_liner": "稳定版 0.145.0 不变；GitHub 最新仍为 0.146.0-alpha.10.1（7/25 20:29 UTC），7/26 无新 Release"
+        }
+      ],
+      "china_summary": "Kimi K3 完整权重开源倒计时不足 2 小时（7/27 00:00 UTC）；DeepSeek 旧 API 名退役第 3 日，迁移教程潮持续。",
+      "media_lens": {
+        "consensus": "K3 开源前夜 + Opus 5 半价前沿叙事叠加，Agent 成本优化仍是主旋律",
+        "divergence": "K3 权重开放后国内团队能否真正自托管 2.8T MoE，还是仅 API/托管推理受益。"
+      }
+    },
     {
       "date": "2026-07-25",
       "path": "summaries/2026-07-25",
