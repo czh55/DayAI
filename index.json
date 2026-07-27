@@ -1,8 +1,47 @@
 {
-  "generated_at": "2026-07-26T22:05:19.741Z",
-  "trigger_at": "2026-07-26T22:01:36Z",
-  "latest_date": "2026-07-26",
+  "generated_at": "2026-07-27T22:04:52.448Z",
+  "trigger_at": "2026-07-27T22:01:48Z",
+  "latest_date": "2026-07-27",
   "summaries": [
+    {
+      "date": "2026-07-27",
+      "path": "summaries/2026-07-27",
+      "headline": "7/27 无新版本，npm @latest 仍为 2.1.220；7/27 无新 Changelog；稳定版 0.145.0 不变",
+      "files": {
+        "readme": "summaries/2026-07-27/README.md",
+        "industry": "summaries/2026-07-27/industry.md",
+        "china_media": "summaries/2026-07-27/china-media.md",
+        "china_ai": "summaries/2026-07-27/china-ai.md",
+        "claude_code": "summaries/2026-07-27/claude-code.md",
+        "cursor": "summaries/2026-07-27/cursor.md",
+        "codex": "summaries/2026-07-27/codex.md"
+      },
+      "tools": [
+        {
+          "id": "claude-code",
+          "name": "Claude Code",
+          "icon": "svgs/claude-code.svg",
+          "one_liner": "7/27 无新版本，npm @latest 仍为 2.1.220；Opus 5 进入发布第 4 日；Anthropic CEO 同日发文澄清开放权重立场"
+        },
+        {
+          "id": "cursor",
+          "name": "Cursor",
+          "icon": "svgs/cursor.svg",
+          "one_liner": "7/27 无新 Changelog；Cursor Router（7/22）进入发布第 6 日，Teams 三档路由持续落地，无 Opus 5 相关官方条目。"
+        },
+        {
+          "id": "codex",
+          "name": "OpenAI Codex",
+          "icon": "svgs/codex.svg",
+          "one_liner": "稳定版 0.145.0 不变；GitHub 今日连发 0.146.0-alpha.12（08:25 UTC）与 alpha.13（16:03 UTC）"
+        }
+      ],
+      "china_summary": "Kimi K3 完整权重于 00:00 UTC 正式开源（2.8T MoE、1M context、Kimi K3 License），同步开源 MoonEP、FlashKDA、AgentEnv 与 k3_tech_report.pdf。",
+      "media_lens": {
+        "consensus": "K3 兑现 7/27 开源承诺，标志开源模型进入 2.8T 参数新纪元",
+        "divergence": "白宫指控 Moonshot 蒸馏 Fable 5 训练 K3 是否成立，以及「开源」对普通开发者是否可及（需 8×H100 级硬件）。"
+      }
+    },
     {
       "date": "2026-07-26",
       "path": "summaries/2026-07-26",
