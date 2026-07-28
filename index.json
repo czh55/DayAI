@@ -1,8 +1,47 @@
 {
-  "generated_at": "2026-07-27T22:04:52.448Z",
-  "trigger_at": "2026-07-27T22:01:48Z",
-  "latest_date": "2026-07-27",
+  "generated_at": "2026-07-28T22:04:49.573Z",
+  "trigger_at": "2026-07-28T22:01:28Z",
+  "latest_date": "2026-07-28",
   "summaries": [
+    {
+      "date": "2026-07-28",
+      "path": "summaries/2026-07-28",
+      "headline": "7/28 无新版本，npm @latest 仍为 2.1.220；Cursor Start 印度专属计划今日上线（₹649/月；稳定版 0.145.0 不变",
+      "files": {
+        "readme": "summaries/2026-07-28/README.md",
+        "industry": "summaries/2026-07-28/industry.md",
+        "china_media": "summaries/2026-07-28/china-media.md",
+        "china_ai": "summaries/2026-07-28/china-ai.md",
+        "claude_code": "summaries/2026-07-28/claude-code.md",
+        "cursor": "summaries/2026-07-28/cursor.md",
+        "codex": "summaries/2026-07-28/codex.md"
+      },
+      "tools": [
+        {
+          "id": "claude-code",
+          "name": "Claude Code",
+          "icon": "svgs/claude-code.svg",
+          "one_liner": "7/28 无新版本，npm @latest 仍为 2.1.220；Opus 5 进入发布第 5 日"
+        },
+        {
+          "id": "cursor",
+          "name": "Cursor",
+          "icon": "svgs/cursor.svg",
+          "one_liner": "Cursor Start 印度专属计划今日上线（₹649/月，UPI 支付），含 Grok 4.5、Composer、Cloud Agent 与 iOS"
+        },
+        {
+          "id": "codex",
+          "name": "OpenAI Codex",
+          "icon": "svgs/codex.svg",
+          "one_liner": "稳定版 0.145.0 不变；GitHub 今日发布 0.146.0-alpha.14（04:28 UTC），npm @latest 仍未跟随。"
+        }
+      ],
+      "china_summary": "Kimi K3 权重开源进入第 2 日，国内媒体集中报道 2.8T 参数与 Infra 开源；其余 13 家厂商今日无公开更新。",
+      "media_lens": {
+        "consensus": "K3 开源标志中国开源模型进入 3T 参数时代，Cursor Start 印证印度成 AI 编程出海必争之地",
+        "divergence": "open-weight 是否等于 open-source，以及 K3 自托管门槛对普通开发者是否「真开源」。"
+      }
+    },
     {
       "date": "2026-07-27",
       "path": "summaries/2026-07-27",
