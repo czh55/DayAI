@@ -1,8 +1,47 @@
 {
-  "generated_at": "2026-07-28T22:04:49.573Z",
-  "trigger_at": "2026-07-28T22:01:28Z",
-  "latest_date": "2026-07-28",
+  "generated_at": "2026-07-29T22:06:25.412Z",
+  "trigger_at": "2026-07-29T22:01:30Z",
+  "latest_date": "2026-07-29",
   "summaries": [
+    {
+      "date": "2026-07-29",
+      "path": "summaries/2026-07-29",
+      "headline": "7/29 无新版本，npm @latest 仍为 2.1.220；Cursor for iPad 今日向全部付费计划开放；稳定版 0.146.0 今日正式发布（01:42 UTC）",
+      "files": {
+        "readme": "summaries/2026-07-29/README.md",
+        "industry": "summaries/2026-07-29/industry.md",
+        "china_media": "summaries/2026-07-29/china-media.md",
+        "china_ai": "summaries/2026-07-29/china-ai.md",
+        "claude_code": "summaries/2026-07-29/claude-code.md",
+        "cursor": "summaries/2026-07-29/cursor.md",
+        "codex": "summaries/2026-07-29/codex.md"
+      },
+      "tools": [
+        {
+          "id": "claude-code",
+          "name": "Claude Code",
+          "icon": "svgs/claude-code.svg",
+          "one_liner": "7/29 无新版本，npm @latest 仍为 2.1.220；Opus 5 进入发布第 6 日；Anthropic 7/27 开放权重立场文无新修订。"
+        },
+        {
+          "id": "cursor",
+          "name": "Cursor",
+          "icon": "svgs/cursor.svg",
+          "one_liner": "Cursor for iPad 今日向全部付费计划开放；iPhone/iPad 新增 Inbox、完整 PR Review（评论/检查/合并）"
+        },
+        {
+          "id": "codex",
+          "name": "OpenAI Codex",
+          "icon": "svgs/codex.svg",
+          "one_liner": "稳定版 0.146.0 今日正式发布（01:42 UTC），npm @latest 已跟随升级；同日 GitHub 再发 0.147.0-alpha.1。"
+        }
+      ],
+      "china_summary": "Kimi K3 权重开源第 3 日 + 全球大使计划启动；Unity 中国发布团结引擎 2.0 与 AI Agent「团结 Codely」；其余 12 家厂商今日无公开更新。",
+      "media_lens": {
+        "consensus": "AI 编程瓶颈已从「写代码」转向「验证与交付」",
+        "divergence": "Uncle Bob「绝不读 AI 代码」vs Hashimoto「逐行阅读」，代表测试围墙与人工直觉两种治理路径。"
+      }
+    },
     {
       "date": "2026-07-28",
       "path": "summaries/2026-07-28",
