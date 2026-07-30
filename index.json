@@ -1,8 +1,47 @@
 {
-  "generated_at": "2026-07-29T22:06:25.412Z",
-  "trigger_at": "2026-07-29T22:01:30Z",
-  "latest_date": "2026-07-29",
+  "generated_at": "2026-07-30T22:05:57.245Z",
+  "trigger_at": "2026-07-30T22:00:19Z",
+  "latest_date": "2026-07-30",
   "summaries": [
+    {
+      "date": "2026-07-30",
+      "path": "summaries/2026-07-30",
+      "headline": "7/30 无新版本，npm @latest 仍为 2.1.220；7/30 无新 Changelog；稳定版 0.146.0 维持 npm @latest",
+      "files": {
+        "readme": "summaries/2026-07-30/README.md",
+        "industry": "summaries/2026-07-30/industry.md",
+        "china_media": "summaries/2026-07-30/china-media.md",
+        "china_ai": "summaries/2026-07-30/china-ai.md",
+        "claude_code": "summaries/2026-07-30/claude-code.md",
+        "cursor": "summaries/2026-07-30/cursor.md",
+        "codex": "summaries/2026-07-30/codex.md"
+      },
+      "tools": [
+        {
+          "id": "claude-code",
+          "name": "Claude Code",
+          "icon": "svgs/claude-code.svg",
+          "one_liner": "7/30 无新版本，npm @latest 仍为 2.1.220；Opus 5 进入发布第 7 日；Anthropic 7/27 开放权重立场文无新修订。"
+        },
+        {
+          "id": "cursor",
+          "name": "Cursor",
+          "icon": "svgs/cursor.svg",
+          "one_liner": "7/30 无新 Changelog；iPad 全付费开放 + Inbox/PR Review 进入第 2 日；Cursor Start 印度计划第 3 日。"
+        },
+        {
+          "id": "codex",
+          "name": "OpenAI Codex",
+          "icon": "svgs/codex.svg",
+          "one_liner": "稳定版 0.146.0 维持 npm @latest；GitHub 今日发布 0.147.0-alpha.2（01:04 UTC）"
+        }
+      ],
+      "china_summary": "Kimi K3 权重开源第 4 日 + 36氪讨论 Infra 难抄；阿里 Claude 禁令第 21 日；其余 12 家厂商今日无公开更新。",
+      "media_lens": {
+        "consensus": "AI 编程竞争轴从「堆 GPU」转向「榨 token 效率」与验证闭环",
+        "divergence": "InfoQ 7/30 重提 Uncle Bob「绝不读 AI 代码」vs Hashimoto「逐行阅读」治理哲学对立。"
+      }
+    },
     {
       "date": "2026-07-29",
       "path": "summaries/2026-07-29",
