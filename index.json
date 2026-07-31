@@ -1,8 +1,47 @@
 {
-  "generated_at": "2026-07-30T22:05:57.245Z",
-  "trigger_at": "2026-07-30T22:00:19Z",
-  "latest_date": "2026-07-30",
+  "generated_at": "2026-07-31T22:07:43.242Z",
+  "trigger_at": "2026-07-31T22:00:55Z",
+  "latest_date": "2026-07-31",
   "summaries": [
+    {
+      "date": "2026-07-31",
+      "path": "summaries/2026-07-31",
+      "headline": "7/31 无新版本，npm @latest 仍为 2.1.220；7/31 无新 Changelog；稳定版 0.146.0 维持 npm @latest",
+      "files": {
+        "readme": "summaries/2026-07-31/README.md",
+        "industry": "summaries/2026-07-31/industry.md",
+        "china_media": "summaries/2026-07-31/china-media.md",
+        "china_ai": "summaries/2026-07-31/china-ai.md",
+        "claude_code": "summaries/2026-07-31/claude-code.md",
+        "cursor": "summaries/2026-07-31/cursor.md",
+        "codex": "summaries/2026-07-31/codex.md"
+      },
+      "tools": [
+        {
+          "id": "claude-code",
+          "name": "Claude Code",
+          "icon": "svgs/claude-code.svg",
+          "one_liner": "7/31 无新版本，npm @latest 仍为 2.1.220；Opus 5 进入发布第 8 日；Changelog 首条仍为 7/25 bug fixes。"
+        },
+        {
+          "id": "cursor",
+          "name": "Cursor",
+          "icon": "svgs/cursor.svg",
+          "one_liner": "7/31 无新 Changelog；iPad 全付费开放 + Inbox/PR Review 进入第 3 日；Cursor Start 印度计划第 4 日。"
+        },
+        {
+          "id": "codex",
+          "name": "OpenAI Codex",
+          "icon": "svgs/codex.svg",
+          "one_liner": "稳定版 0.146.0 维持 npm @latest；GitHub 今日三连发 0.147.0-alpha.4（17:54 UTC）、alpha.3（15:36…"
+        }
+      ],
+      "china_summary": "DeepSeek-V4-Flash 正式版 API 公测上线（7/31），Agent 基准全面超越 V4-Pro-Preview；原生支持 Responses API 并适配 Codex；其余 13 家厂商今日无公开更新。",
+      "media_lens": {
+        "consensus": "AI 编程从「写代码」转向「完成工程任务」，后训练优化比堆参数更关键",
+        "divergence": "36氪称 Codex「反超 Claude Code 但代价惨重」vs Anthropic 强调 Opus 5 日常性价比路线。"
+      }
+    },
     {
       "date": "2026-07-30",
       "path": "summaries/2026-07-30",
