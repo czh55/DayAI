@@ -1,8 +1,47 @@
 {
-  "generated_at": "2026-08-01T22:04:10.667Z",
-  "trigger_at": "2026-08-01T22:00:41Z",
-  "latest_date": "2026-08-01",
+  "generated_at": "2026-08-02T22:04:27.757Z",
+  "trigger_at": "2026-08-02T22:01:35Z",
+  "latest_date": "2026-08-02",
   "summaries": [
+    {
+      "date": "2026-08-02",
+      "path": "summaries/2026-08-02",
+      "headline": "8/2 无新版本，npm @latest 仍为 2.1.220（维护冻结…；8/2 无新 Changelog；稳定版 0.146.0 维持 npm @latest（第 5 日）",
+      "files": {
+        "readme": "summaries/2026-08-02/README.md",
+        "industry": "summaries/2026-08-02/industry.md",
+        "china_media": "summaries/2026-08-02/china-media.md",
+        "china_ai": "summaries/2026-08-02/china-ai.md",
+        "claude_code": "summaries/2026-08-02/claude-code.md",
+        "cursor": "summaries/2026-08-02/cursor.md",
+        "codex": "summaries/2026-08-02/codex.md"
+      },
+      "tools": [
+        {
+          "id": "claude-code",
+          "name": "Claude Code",
+          "icon": "svgs/claude-code.svg",
+          "one_liner": "8/2 无新版本，npm @latest 仍为 2.1.220（维护冻结第 9 日）；Opus 5 进入发布第 10 日"
+        },
+        {
+          "id": "cursor",
+          "name": "Cursor",
+          "icon": "svgs/cursor.svg",
+          "one_liner": "8/2 无新 Changelog；iPad 全付费开放 + Inbox/PR Review 进入第 5 日"
+        },
+        {
+          "id": "codex",
+          "name": "OpenAI Codex",
+          "icon": "svgs/codex.svg",
+          "one_liner": "稳定版 0.146.0 维持 npm @latest（第 5 日）；GitHub 自 7/31 0.147.0-alpha.4 后 8/2 无新 release…"
+        }
+      ],
+      "china_summary": "DeepSeek V4-Flash 正式版 API 公测进入第 3 日；其余 13 家厂商今日无公开更新；阿里 Claude 禁令第 24 日。",
+      "media_lens": {
+        "consensus": "企业 AI 采购从单平台转向多平台组合（Okta 数据印证）",
+        "divergence": "增速冠军 Anthropic vs 装机量霸主 Microsoft 365（MAU 仍差 10 倍）的叙事权重。"
+      }
+    },
     {
       "date": "2026-08-01",
       "path": "summaries/2026-08-01",
